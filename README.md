@@ -14,7 +14,7 @@
 <div align="center">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![DESIGN.md Count](https://img.shields.io/badge/DESIGN.md%20count-75-10b981?style=classic)
+![DESIGN.md Count](https://img.shields.io/badge/DESIGN.md%20count-85-10b981?style=classic)
 [![Last Update](https://img.shields.io/github/last-commit/fchangjun/awesome-design-md-cn?label=Last%20update&style=classic)](https://github.com/fchangjun/awesome-design-md-cn)
 
 </div>
@@ -27,7 +27,7 @@
 
 目前仓库包含：
 
-- `74` 个参考案例：来自原项目收录的公开网站风格参考
+- `84` 个参考案例：来自原项目收录的公开网站风格参考
 - `1` 个自定义案例：`awesome-design-md-cn` 自己沉淀出的资源库设计语言
 
 ## 快速入口
@@ -38,6 +38,13 @@
 - 原项目 README：[README.md](https://github.com/VoltAgent/awesome-design-md/blob/main/README.md)
 
 ## 更新日志
+
+### 2026-11-13
+
+- 根据上游 `awesome-design-md` 最新 `main` 快照同步 `84` 个参考案例，新增 1win、Al Jazeera、DJI、Jobright、Mercury、mydealz、NerdWallet、Oracle、Oura、SAP。
+- 更新已有案例的上游 `DESIGN.md` 与 README 内容，保留本地中文元数据、自定义案例和手工预览保护规则。
+- 为新增案例补齐中文名称、摘要、分类、标签、推荐场景、详情页和明暗预览；新增案例使用同步日期 `2026-11-13`，已有案例保留原有本地日期。
+- 更新首页数据版本、收录总数和 README 收录列表。
 
 ### 2026-07-07
 
@@ -128,6 +135,7 @@ Markdown 也是 LLM 最擅长读取的格式，所以没有额外解析和配置
 - [**Minimax**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/minimax/) - AI 模型提供方。大胆深色界面与霓虹强调
 - [**Mistral AI**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/mistral.ai/) - 开放权重 LLM 提供方。法式极简，偏紫色调
 - [**Ollama**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/ollama/) - 本地运行 LLM。终端优先，黑白极简
+- [**Jobright**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/jobright/) - AI 求职平台。薄荷绿、黑白高对比、压缩标题和胶囊按钮
 - [**OpenCode AI**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/opencode.ai/) - AI 编码平台。开发者导向的深色主题
 - [**Replicate**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/replicate/) - 通过 API 运行模型。清爽白底，偏代码导向
 - [**RunwayML**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/runwayml/) - AI 视频生成。电影感深色 UI，媒体展示导向
@@ -160,6 +168,8 @@ Markdown 也是 LLM 最擅长读取的格式，所以没有额外解析和配置
 - [**MongoDB**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/mongodb/) - 文档数据库。绿色品牌识别，开发者文档导向
 - [**Sanity**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/sanity/) - Headless CMS。红色强调，内容优先的编辑式布局
 - [**Stripe**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/stripe/) - 支付基础设施。标志性紫色渐变，轻字重优雅风格
+- [**Oracle**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/oracle/) - 企业云与数据库软件。暖中性色、炭黑操作按钮、克制品牌红
+- [**SAP**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/sap/) - 企业业务软件。白色画布、SAP 蓝和应用框架式界面
 
 ### 设计与效率
 
@@ -172,6 +182,8 @@ Markdown 也是 LLM 最擅长读取的格式，所以没有额外解析和配置
 - [**Miro**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/miro/) - 视觉协作工具。亮黄色点缀，无限画布气质
 - [**Notion**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/notion/) - 一体化工作空间。温和极简、衬线标题、柔和表面
 - [**Pinterest**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/pinterest/) - 图片发现平台。红色强调、瀑布流、图片优先
+- [**Al Jazeera**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/aljazeera/) - 全球新闻网络。纸白编辑画布、橙色品牌块、突发红和密集标题
+- [**mydealz**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/mydealz/) - 德国优惠社区。白卡片信息流、冷热投票和品牌绿
 - [**Slack**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/slack/) - 团队协作消息工具。紫色品牌底、柔和渐变首屏、产品界面组合展示
 - [**Webflow**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/webflow/) - 可视化建站。蓝色点缀、 polished marketing site 风格
 
@@ -179,15 +191,19 @@ Markdown 也是 LLM 最擅长读取的格式，所以没有额外解析和配置
 
 - [**Binance**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/binance/) - 加密交易平台。黑黄高对比、交易数据紧迫感、深色金融界面
 - [**Coinbase**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/coinbase/) - 加密交易所。干净蓝色识别，强调可信与机构感
+- [**1win**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/1win/) - 加密博彩与体育平台。近黑画布、亮绿色行动色和密集游戏卡片
 - [**Kraken**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/kraken/) - 加密交易平台。紫色深色界面，数据密集型 dashboard
 - [**Mastercard**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/mastercard/) - 全球支付网络。暖米色画布、胶囊圆角、圆形轨道叙事
 - [**Revolut**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/revolut/) - 数字银行。精致深色界面，渐变卡片，金融科技精确感
 - [**Wise**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/wise/) - 国际转账。明亮绿色点缀，清晰且友好
+- [**Mercury**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/mercury/) - 创业公司银行平台。墨紫夜间画布、靛蓝 CTA 和轻量字重
+- [**NerdWallet**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/nerdwallet/) - 个人理财比较平台。森林绿、薄荷色阶和高密度比较表格
 
 ### 企业与消费品牌
 
 - [**Airbnb**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/airbnb/) - 旅行平台。暖珊瑚色点缀，强摄影感，圆润 UI
 - [**Apple**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/apple/) - 消费电子。高级留白，SF Pro，电影感视觉
+- [**DJI**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/dji/) - 无人机与相机品牌。白底摄影展厅、工程蓝胶囊按钮和产品分级标签
 - [**Dell 1996**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/dell-1996/) - 1996 年 Dell 官网复古目录风。黑色页面框、彩色丝带卡片、粗重标题和手工 GIF 贴纸感
 - [**HP**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/hp/) - PC 与打印机品牌。纯白画布、HP 电光蓝 CTA、几何无衬线和蓝色斜角装饰
 - [**IBM**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/ibm/) - 企业技术品牌。Carbon 设计系统，结构化蓝色体系
@@ -204,6 +220,7 @@ Markdown 也是 LLM 最擅长读取的格式，所以没有额外解析和配置
 - [**Uber**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/uber/) - 出行平台。粗黑白对比、紧凑字距、都市感强
 - [**Vodafone**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/vodafone/) - 全球电信品牌。沃达丰红 CTA、巨大大写标题、影像分段叙事
 - [**WIRED**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/wired/) - 科技杂志。纸白编辑版式、黑色字标、窄高衬线标题与高密度文章排版
+- [**Oura**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/oura/) - 智能戒指与健康品牌。暖纸张底、编辑衬线和泥土色强调
 
 ### 汽车品牌
 

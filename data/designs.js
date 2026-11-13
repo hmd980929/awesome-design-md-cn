@@ -70,6 +70,75 @@ window.DESIGNS = [
     ]
   },
   {
+    "slug": "1win",
+    "name": "1win",
+    "displayName": "1win",
+    "nameZh": "1win",
+    "group": "reference",
+    "summaryZh": "加密博彩与体育平台。近黑画布、亮绿色行动色、蓝色次强调和密集游戏卡片轨道。",
+    "category": "金融科技",
+    "tagsZh": [
+      "加密",
+      "博彩",
+      "体育",
+      "深色"
+    ],
+    "styleKeywords": [
+      "近黑画布",
+      "亮绿色 CTA",
+      "蓝色次强调",
+      "密集卡片轨道"
+    ],
+    "aliases": [
+      "1win",
+      "加密",
+      "博彩",
+      "体育",
+      "深色"
+    ],
+    "useCases": [
+      "产品官网",
+      "数据控制台",
+      "内容平台"
+    ],
+    "previewLight": "design-md/1win/preview.html",
+    "previewDark": "design-md/1win/preview-dark.html",
+    "readmePath": "design-md/1win/README.md",
+    "designPath": "design-md/1win/DESIGN.md",
+    "updatedAt": "2026-11-13",
+    "positioningZh": "强调专业、可信和精致的信息表达，适合价格、数据和支付流程较多的页面。",
+    "bestFor": [
+      "产品官网",
+      "数据控制台",
+      "内容平台",
+      "支付产品页"
+    ],
+    "avoidFor": [
+      "轻社交内容页",
+      "卡通化活动页"
+    ],
+    "aiChecklist": [
+      "强化数据和价格的对齐感",
+      "避免装饰元素影响可信度",
+      "CTA 要明确且节制"
+    ],
+    "recommendedPromptZh": "参考 1win / 1win 的视觉语言，设计一个中文 产品官网，保留其配色、字重层级、卡片样式和留白节奏，同时把标题长度、正文排版和信息密度调整为适合中文阅读的形式。",
+    "relatedItems": [
+      {
+        "slug": "binance",
+        "nameZh": "币安"
+      },
+      {
+        "slug": "coinbase",
+        "nameZh": "Coinbase"
+      },
+      {
+        "slug": "kraken",
+        "nameZh": "Kraken"
+      }
+    ]
+  },
+  {
     "slug": "airbnb",
     "name": "airbnb",
     "displayName": "Airbnb",
@@ -204,6 +273,77 @@ window.DESIGNS = [
     ]
   },
   {
+    "slug": "aljazeera",
+    "name": "aljazeera",
+    "displayName": "Al Jazeera",
+    "nameZh": "半岛电视台",
+    "group": "reference",
+    "summaryZh": "全球新闻网络。纸白编辑画布、密集新闻标题、橙色品牌块、突发红和紧凑黑色胶囊按钮。",
+    "category": "内容平台",
+    "tagsZh": [
+      "媒体",
+      "新闻",
+      "编辑",
+      "内容"
+    ],
+    "styleKeywords": [
+      "纸白编辑画布",
+      "Roboto 标题",
+      "橙色品牌块",
+      "突发红"
+    ],
+    "aliases": [
+      "aljazeera",
+      "半岛电视台",
+      "Al Jazeera",
+      "媒体",
+      "新闻",
+      "编辑",
+      "内容"
+    ],
+    "useCases": [
+      "新闻资讯页",
+      "内容社区",
+      "文章详情页"
+    ],
+    "previewLight": "design-md/aljazeera/preview.html",
+    "previewDark": "design-md/aljazeera/preview-dark.html",
+    "readmePath": "design-md/aljazeera/README.md",
+    "designPath": "design-md/aljazeera/DESIGN.md",
+    "updatedAt": "2026-11-13",
+    "positioningZh": "强调流动感、内容展示效率和活跃度，适合内容消费和社区产品。",
+    "bestFor": [
+      "新闻资讯页",
+      "内容社区",
+      "文章详情页",
+      "推荐流页面"
+    ],
+    "avoidFor": [
+      "表单密集型后台",
+      "高度理性的文档站"
+    ],
+    "aiChecklist": [
+      "优先突出封面和内容卡片",
+      "降低单屏信息负担",
+      "避免全部模块同质化"
+    ],
+    "recommendedPromptZh": "参考 半岛电视台 / Al Jazeera 的视觉语言，设计一个中文 新闻资讯页，保留其配色、字重层级、卡片样式和留白节奏，同时把标题长度、正文排版和信息密度调整为适合中文阅读的形式。",
+    "relatedItems": [
+      {
+        "slug": "mydealz",
+        "nameZh": "mydealz"
+      },
+      {
+        "slug": "nintendo-2001",
+        "nameZh": "Nintendo 2001"
+      },
+      {
+        "slug": "pinterest",
+        "nameZh": "Pinterest"
+      }
+    ]
+  },
+  {
     "slug": "apple",
     "name": "apple",
     "displayName": "Apple",
@@ -328,16 +468,16 @@ window.DESIGNS = [
     "recommendedPromptZh": "参考 币安 / Binance 的视觉语言，设计一个中文 官网落地页，保留其配色、字重层级、卡片样式和留白节奏，同时把标题长度、正文排版和信息密度调整为适合中文阅读的形式。",
     "relatedItems": [
       {
+        "slug": "1win",
+        "nameZh": "1win"
+      },
+      {
         "slug": "coinbase",
         "nameZh": "Coinbase"
       },
       {
         "slug": "kraken",
         "nameZh": "Kraken"
-      },
-      {
-        "slug": "mastercard",
-        "nameZh": "万事达卡"
       }
     ]
   },
@@ -931,16 +1071,16 @@ window.DESIGNS = [
     "recommendedPromptZh": "参考 Coinbase / Coinbase 的视觉语言，设计一个中文 官网落地页，保留其配色、字重层级、卡片样式和留白节奏，同时把标题长度、正文排版和信息密度调整为适合中文阅读的形式。",
     "relatedItems": [
       {
+        "slug": "1win",
+        "nameZh": "1win"
+      },
+      {
         "slug": "binance",
         "nameZh": "币安"
       },
       {
         "slug": "kraken",
         "nameZh": "Kraken"
-      },
-      {
-        "slug": "mastercard",
-        "nameZh": "万事达卡"
       }
     ]
   },
@@ -1135,6 +1275,77 @@ window.DESIGNS = [
       "让留白和图片承担更多表达"
     ],
     "recommendedPromptZh": "参考 Dell 1996 / Dell (1996) 的视觉语言，设计一个中文 品牌官网，保留其配色、字重层级、卡片样式和留白节奏，同时把标题长度、正文排版和信息密度调整为适合中文阅读的形式。",
+    "relatedItems": [
+      {
+        "slug": "airbnb",
+        "nameZh": "爱彼迎"
+      },
+      {
+        "slug": "apple",
+        "nameZh": "苹果"
+      },
+      {
+        "slug": "bmw",
+        "nameZh": "宝马"
+      }
+    ]
+  },
+  {
+    "slug": "dji",
+    "name": "dji",
+    "displayName": "DJI",
+    "nameZh": "大疆",
+    "group": "reference",
+    "summaryZh": "无人机与相机品牌。白底摄影展厅、工程蓝胶囊按钮、紧凑 Open Sans 和产品分级标签。",
+    "category": "品牌官网",
+    "tagsZh": [
+      "硬件",
+      "无人机",
+      "影像",
+      "产品"
+    ],
+    "styleKeywords": [
+      "白底摄影",
+      "工程蓝",
+      "产品磁贴",
+      "购买胶囊按钮"
+    ],
+    "aliases": [
+      "dji",
+      "大疆",
+      "DJI",
+      "硬件",
+      "无人机",
+      "影像",
+      "产品"
+    ],
+    "useCases": [
+      "品牌官网",
+      "产品详情页",
+      "电商商品页"
+    ],
+    "previewLight": "design-md/dji/preview.html",
+    "previewDark": "design-md/dji/preview-dark.html",
+    "readmePath": "design-md/dji/README.md",
+    "designPath": "design-md/dji/DESIGN.md",
+    "updatedAt": "2026-11-13",
+    "positioningZh": "强调品牌气质、节奏和视觉记忆点，更适合营销和叙事表达。",
+    "bestFor": [
+      "品牌官网",
+      "产品详情页",
+      "电商商品页",
+      "营销落地页"
+    ],
+    "avoidFor": [
+      "复杂运维后台",
+      "高密度列表管理页"
+    ],
+    "aiChecklist": [
+      "强化首屏和大标题表现",
+      "控制信息数量",
+      "让留白和图片承担更多表达"
+    ],
+    "recommendedPromptZh": "参考 大疆 / DJI 的视觉语言，设计一个中文 品牌官网，保留其配色、字重层级、卡片样式和留白节奏，同时把标题长度、正文排版和信息密度调整为适合中文阅读的形式。",
     "relatedItems": [
       {
         "slug": "airbnb",
@@ -1747,6 +1958,76 @@ window.DESIGNS = [
     ]
   },
   {
+    "slug": "jobright",
+    "name": "jobright",
+    "displayName": "Jobright",
+    "nameZh": "Jobright",
+    "group": "reference",
+    "summaryZh": "AI 求职平台。春日薄荷绿、黑白高对比、压缩标题字和高能量胶囊按钮。",
+    "category": "AI 产品",
+    "tagsZh": [
+      "AI",
+      "招聘",
+      "SaaS",
+      "绿色"
+    ],
+    "styleKeywords": [
+      "薄荷绿",
+      "黑色胶囊按钮",
+      "压缩标题",
+      "大留白"
+    ],
+    "aliases": [
+      "jobright",
+      "Jobright",
+      "AI",
+      "招聘",
+      "SaaS",
+      "绿色"
+    ],
+    "useCases": [
+      "AI 产品官网",
+      "SaaS 后台",
+      "招聘平台"
+    ],
+    "previewLight": "design-md/jobright/preview.html",
+    "previewDark": "design-md/jobright/preview-dark.html",
+    "readmePath": "design-md/jobright/README.md",
+    "designPath": "design-md/jobright/DESIGN.md",
+    "updatedAt": "2026-11-13",
+    "positioningZh": "强调前沿感、速度感和产品未来感，适合把能力和差异点讲清楚。",
+    "bestFor": [
+      "AI 产品官网",
+      "SaaS 后台",
+      "招聘平台",
+      "AI 工具官网"
+    ],
+    "avoidFor": [
+      "强表格化后台",
+      "政企风审批系统"
+    ],
+    "aiChecklist": [
+      "突出核心能力和模型价值",
+      "让功能区块清晰分组",
+      "避免页面装饰压过信息层级"
+    ],
+    "recommendedPromptZh": "参考 Jobright / Jobright 的视觉语言，设计一个中文 AI 产品官网，保留其配色、字重层级、卡片样式和留白节奏，同时把标题长度、正文排版和信息密度调整为适合中文阅读的形式。",
+    "relatedItems": [
+      {
+        "slug": "claude",
+        "nameZh": "Claude"
+      },
+      {
+        "slug": "cohere",
+        "nameZh": "Cohere"
+      },
+      {
+        "slug": "cursor",
+        "nameZh": "Cursor"
+      }
+    ]
+  },
+  {
     "slug": "kraken",
     "name": "kraken",
     "displayName": "Kraken",
@@ -1799,16 +2080,16 @@ window.DESIGNS = [
     "recommendedPromptZh": "参考 Kraken / Kraken 的视觉语言，设计一个中文 官网落地页，保留其配色、字重层级、卡片样式和留白节奏，同时把标题长度、正文排版和信息密度调整为适合中文阅读的形式。",
     "relatedItems": [
       {
+        "slug": "1win",
+        "nameZh": "1win"
+      },
+      {
         "slug": "binance",
         "nameZh": "币安"
       },
       {
         "slug": "coinbase",
         "nameZh": "Coinbase"
-      },
-      {
-        "slug": "mastercard",
-        "nameZh": "万事达卡"
       }
     ]
   },
@@ -2069,16 +2350,86 @@ window.DESIGNS = [
     "recommendedPromptZh": "参考 万事达卡 / Mastercard 的视觉语言，设计一个中文 官网落地页，保留其配色、字重层级、卡片样式和留白节奏，同时把标题长度、正文排版和信息密度调整为适合中文阅读的形式。",
     "relatedItems": [
       {
+        "slug": "1win",
+        "nameZh": "1win"
+      },
+      {
         "slug": "binance",
         "nameZh": "币安"
       },
       {
         "slug": "coinbase",
         "nameZh": "Coinbase"
+      }
+    ]
+  },
+  {
+    "slug": "mercury",
+    "name": "mercury",
+    "displayName": "Mercury",
+    "nameZh": "Mercury",
+    "group": "reference",
+    "summaryZh": "创业公司银行平台。深墨紫夜间首页与浅色产品页并存，靛蓝行动胶囊、轻量字重和柔和卡片构成统一体验。",
+    "category": "金融科技",
+    "tagsZh": [
+      "金融",
+      "银行",
+      "SaaS",
+      "靛蓝"
+    ],
+    "styleKeywords": [
+      "墨紫夜间画布",
+      "靛蓝 CTA",
+      "轻量字重",
+      "柔和卡片"
+    ],
+    "aliases": [
+      "mercury",
+      "Mercury",
+      "金融",
+      "银行",
+      "SaaS",
+      "靛蓝"
+    ],
+    "useCases": [
+      "金融产品官网",
+      "SaaS 后台",
+      "定价页面"
+    ],
+    "previewLight": "design-md/mercury/preview.html",
+    "previewDark": "design-md/mercury/preview-dark.html",
+    "readmePath": "design-md/mercury/README.md",
+    "designPath": "design-md/mercury/DESIGN.md",
+    "updatedAt": "2026-11-13",
+    "positioningZh": "强调专业、可信和精致的信息表达，适合价格、数据和支付流程较多的页面。",
+    "bestFor": [
+      "金融产品官网",
+      "SaaS 后台",
+      "定价页面",
+      "支付产品页"
+    ],
+    "avoidFor": [
+      "轻社交内容页",
+      "卡通化活动页"
+    ],
+    "aiChecklist": [
+      "强化数据和价格的对齐感",
+      "避免装饰元素影响可信度",
+      "CTA 要明确且节制"
+    ],
+    "recommendedPromptZh": "参考 Mercury / Mercury 的视觉语言，设计一个中文 金融产品官网，保留其配色、字重层级、卡片样式和留白节奏，同时把标题长度、正文排版和信息密度调整为适合中文阅读的形式。",
+    "relatedItems": [
+      {
+        "slug": "1win",
+        "nameZh": "1win"
       },
       {
-        "slug": "kraken",
-        "nameZh": "Kraken"
+        "slug": "binance",
+        "nameZh": "币安"
+      },
+      {
+        "slug": "coinbase",
+        "nameZh": "Coinbase"
       }
     ]
   },
@@ -2483,6 +2834,145 @@ window.DESIGNS = [
     ]
   },
   {
+    "slug": "mydealz",
+    "name": "mydealz",
+    "displayName": "mydealz",
+    "nameZh": "mydealz",
+    "group": "reference",
+    "summaryZh": "德国优惠社区。高密度白卡片信息流、冷热投票控件、绿色品牌色和紧凑状态标签。",
+    "category": "内容平台",
+    "tagsZh": [
+      "电商",
+      "社区",
+      "优惠",
+      "信息流"
+    ],
+    "styleKeywords": [
+      "白卡片信息流",
+      "冷热投票",
+      "品牌绿",
+      "高密度内容"
+    ],
+    "aliases": [
+      "mydealz",
+      "电商",
+      "社区",
+      "优惠",
+      "信息流"
+    ],
+    "useCases": [
+      "内容社区",
+      "推荐流页面",
+      "电商平台"
+    ],
+    "previewLight": "design-md/mydealz/preview.html",
+    "previewDark": "design-md/mydealz/preview-dark.html",
+    "readmePath": "design-md/mydealz/README.md",
+    "designPath": "design-md/mydealz/DESIGN.md",
+    "updatedAt": "2026-11-13",
+    "positioningZh": "强调流动感、内容展示效率和活跃度，适合内容消费和社区产品。",
+    "bestFor": [
+      "内容社区",
+      "推荐流页面",
+      "电商平台",
+      "活动专题页"
+    ],
+    "avoidFor": [
+      "表单密集型后台",
+      "高度理性的文档站"
+    ],
+    "aiChecklist": [
+      "优先突出封面和内容卡片",
+      "降低单屏信息负担",
+      "避免全部模块同质化"
+    ],
+    "recommendedPromptZh": "参考 mydealz / mydealz 的视觉语言，设计一个中文 内容社区，保留其配色、字重层级、卡片样式和留白节奏，同时把标题长度、正文排版和信息密度调整为适合中文阅读的形式。",
+    "relatedItems": [
+      {
+        "slug": "aljazeera",
+        "nameZh": "半岛电视台"
+      },
+      {
+        "slug": "nintendo-2001",
+        "nameZh": "Nintendo 2001"
+      },
+      {
+        "slug": "pinterest",
+        "nameZh": "Pinterest"
+      }
+    ]
+  },
+  {
+    "slug": "nerdwallet",
+    "name": "nerdwallet",
+    "displayName": "NerdWallet",
+    "nameZh": "NerdWallet",
+    "group": "reference",
+    "summaryZh": "个人理财比较平台。深森林绿与薄荷色阶主导，近乎无阴影，以细线和浅色区域承载高密度比较表格。",
+    "category": "金融科技",
+    "tagsZh": [
+      "金融",
+      "理财",
+      "比较",
+      "绿色"
+    ],
+    "styleKeywords": [
+      "森林绿",
+      "薄荷色阶",
+      "比较表格",
+      "低阴影"
+    ],
+    "aliases": [
+      "nerdwallet",
+      "NerdWallet",
+      "金融",
+      "理财",
+      "比较",
+      "绿色"
+    ],
+    "useCases": [
+      "金融产品官网",
+      "数据比较页",
+      "内容平台"
+    ],
+    "previewLight": "design-md/nerdwallet/preview.html",
+    "previewDark": "design-md/nerdwallet/preview-dark.html",
+    "readmePath": "design-md/nerdwallet/README.md",
+    "designPath": "design-md/nerdwallet/DESIGN.md",
+    "updatedAt": "2026-11-13",
+    "positioningZh": "强调专业、可信和精致的信息表达，适合价格、数据和支付流程较多的页面。",
+    "bestFor": [
+      "金融产品官网",
+      "数据比较页",
+      "内容平台",
+      "支付产品页"
+    ],
+    "avoidFor": [
+      "轻社交内容页",
+      "卡通化活动页"
+    ],
+    "aiChecklist": [
+      "强化数据和价格的对齐感",
+      "避免装饰元素影响可信度",
+      "CTA 要明确且节制"
+    ],
+    "recommendedPromptZh": "参考 NerdWallet / NerdWallet 的视觉语言，设计一个中文 金融产品官网，保留其配色、字重层级、卡片样式和留白节奏，同时把标题长度、正文排版和信息密度调整为适合中文阅读的形式。",
+    "relatedItems": [
+      {
+        "slug": "1win",
+        "nameZh": "1win"
+      },
+      {
+        "slug": "binance",
+        "nameZh": "币安"
+      },
+      {
+        "slug": "coinbase",
+        "nameZh": "Coinbase"
+      }
+    ]
+  },
+  {
     "slug": "nike",
     "name": "nike",
     "displayName": "Nike",
@@ -2613,16 +3103,16 @@ window.DESIGNS = [
     "recommendedPromptZh": "参考 Nintendo 2001 / Nintendo.com (2001) 的视觉语言，设计一个中文 内容社区，保留其配色、字重层级、卡片样式和留白节奏，同时把标题长度、正文排版和信息密度调整为适合中文阅读的形式。",
     "relatedItems": [
       {
+        "slug": "aljazeera",
+        "nameZh": "半岛电视台"
+      },
+      {
+        "slug": "mydealz",
+        "nameZh": "mydealz"
+      },
+      {
         "slug": "pinterest",
         "nameZh": "Pinterest"
-      },
-      {
-        "slug": "playstation",
-        "nameZh": "PlayStation"
-      },
-      {
-        "slug": "spotify",
-        "nameZh": "Spotify"
       }
     ]
   },
@@ -2893,6 +3383,146 @@ window.DESIGNS = [
     ]
   },
   {
+    "slug": "oracle",
+    "name": "oracle",
+    "displayName": "Oracle",
+    "nameZh": "Oracle",
+    "group": "reference",
+    "summaryZh": "企业云与数据库软件。暖中性色阶、炭黑操作按钮、红色仅保留给品牌标识，企业产品页与官网并行。",
+    "category": "开发工具",
+    "tagsZh": [
+      "企业",
+      "云",
+      "数据库",
+      "软件"
+    ],
+    "styleKeywords": [
+      "暖中性色",
+      "炭黑按钮",
+      "Oracle 红",
+      "企业产品框架"
+    ],
+    "aliases": [
+      "oracle",
+      "Oracle",
+      "企业",
+      "云",
+      "数据库",
+      "软件"
+    ],
+    "useCases": [
+      "企业官网",
+      "开发者官网",
+      "SaaS 产品页"
+    ],
+    "previewLight": "design-md/oracle/preview.html",
+    "previewDark": "design-md/oracle/preview-dark.html",
+    "readmePath": "design-md/oracle/README.md",
+    "designPath": "design-md/oracle/DESIGN.md",
+    "updatedAt": "2026-11-13",
+    "positioningZh": "重视结构清晰、可读性和文档感，适合开发者和 B 端产品。",
+    "bestFor": [
+      "企业官网",
+      "开发者官网",
+      "SaaS 产品页",
+      "文档站"
+    ],
+    "avoidFor": [
+      "强娱乐化内容页",
+      "情绪导向的品牌叙事页"
+    ],
+    "aiChecklist": [
+      "保证标题层级明确",
+      "让按钮和代码区块保持克制",
+      "优先确保信息扫描效率"
+    ],
+    "recommendedPromptZh": "参考 Oracle / Oracle 的视觉语言，设计一个中文 企业官网，保留其配色、字重层级、卡片样式和留白节奏，同时把标题长度、正文排版和信息密度调整为适合中文阅读的形式。",
+    "relatedItems": [
+      {
+        "slug": "airtable",
+        "nameZh": "Airtable"
+      },
+      {
+        "slug": "clickhouse",
+        "nameZh": "ClickHouse"
+      },
+      {
+        "slug": "composio",
+        "nameZh": "Composio"
+      }
+    ]
+  },
+  {
+    "slug": "oura",
+    "name": "oura",
+    "displayName": "Oura",
+    "nameZh": "Oura",
+    "group": "reference",
+    "summaryZh": "智能戒指与健康品牌。暖纸张底、编辑感衬线、泥土色强调和克制蓝色行动按钮。",
+    "category": "品牌官网",
+    "tagsZh": [
+      "健康",
+      "硬件",
+      "生活方式",
+      "摄影"
+    ],
+    "styleKeywords": [
+      "暖纸张底",
+      "编辑衬线",
+      "泥土色",
+      "克制蓝色 CTA"
+    ],
+    "aliases": [
+      "oura",
+      "Oura",
+      "健康",
+      "硬件",
+      "生活方式",
+      "摄影"
+    ],
+    "useCases": [
+      "品牌官网",
+      "产品详情页",
+      "健康服务页"
+    ],
+    "previewLight": "design-md/oura/preview.html",
+    "previewDark": "design-md/oura/preview-dark.html",
+    "readmePath": "design-md/oura/README.md",
+    "designPath": "design-md/oura/DESIGN.md",
+    "updatedAt": "2026-11-13",
+    "positioningZh": "强调品牌气质、节奏和视觉记忆点，更适合营销和叙事表达。",
+    "bestFor": [
+      "品牌官网",
+      "产品详情页",
+      "健康服务页",
+      "营销落地页"
+    ],
+    "avoidFor": [
+      "复杂运维后台",
+      "高密度列表管理页"
+    ],
+    "aiChecklist": [
+      "强化首屏和大标题表现",
+      "控制信息数量",
+      "让留白和图片承担更多表达"
+    ],
+    "recommendedPromptZh": "参考 Oura / Oura 的视觉语言，设计一个中文 品牌官网，保留其配色、字重层级、卡片样式和留白节奏，同时把标题长度、正文排版和信息密度调整为适合中文阅读的形式。",
+    "relatedItems": [
+      {
+        "slug": "airbnb",
+        "nameZh": "爱彼迎"
+      },
+      {
+        "slug": "apple",
+        "nameZh": "苹果"
+      },
+      {
+        "slug": "bmw",
+        "nameZh": "宝马"
+      }
+    ]
+  },
+  {
     "slug": "pinterest",
     "name": "pinterest",
     "displayName": "Pinterest",
@@ -2944,16 +3574,16 @@ window.DESIGNS = [
     "recommendedPromptZh": "参考 Pinterest / Pinterest 的视觉语言，设计一个中文 内容社区，保留其配色、字重层级、卡片样式和留白节奏，同时把标题长度、正文排版和信息密度调整为适合中文阅读的形式。",
     "relatedItems": [
       {
+        "slug": "aljazeera",
+        "nameZh": "半岛电视台"
+      },
+      {
+        "slug": "mydealz",
+        "nameZh": "mydealz"
+      },
+      {
         "slug": "nintendo-2001",
         "nameZh": "Nintendo 2001"
-      },
-      {
-        "slug": "playstation",
-        "nameZh": "PlayStation"
-      },
-      {
-        "slug": "spotify",
-        "nameZh": "Spotify"
       }
     ]
   },
@@ -3014,16 +3644,16 @@ window.DESIGNS = [
     "recommendedPromptZh": "参考 PlayStation / PlayStation 的视觉语言，设计一个中文 内容社区，保留其配色、字重层级、卡片样式和留白节奏，同时把标题长度、正文排版和信息密度调整为适合中文阅读的形式。",
     "relatedItems": [
       {
+        "slug": "aljazeera",
+        "nameZh": "半岛电视台"
+      },
+      {
+        "slug": "mydealz",
+        "nameZh": "mydealz"
+      },
+      {
         "slug": "nintendo-2001",
         "nameZh": "Nintendo 2001"
-      },
-      {
-        "slug": "pinterest",
-        "nameZh": "Pinterest"
-      },
-      {
-        "slug": "spotify",
-        "nameZh": "Spotify"
       }
     ]
   },
@@ -3407,16 +4037,16 @@ window.DESIGNS = [
     "recommendedPromptZh": "参考 Revolut / Revolut 的视觉语言，设计一个中文 官网落地页，保留其配色、字重层级、卡片样式和留白节奏，同时把标题长度、正文排版和信息密度调整为适合中文阅读的形式。",
     "relatedItems": [
       {
+        "slug": "1win",
+        "nameZh": "1win"
+      },
+      {
         "slug": "binance",
         "nameZh": "币安"
       },
       {
         "slug": "coinbase",
         "nameZh": "Coinbase"
-      },
-      {
-        "slug": "kraken",
-        "nameZh": "Kraken"
       }
     ]
   },
@@ -3549,6 +4179,76 @@ window.DESIGNS = [
       {
         "slug": "webflow",
         "nameZh": "Webflow"
+      }
+    ]
+  },
+  {
+    "slug": "sap",
+    "name": "sap",
+    "displayName": "SAP",
+    "nameZh": "SAP",
+    "group": "reference",
+    "summaryZh": "企业业务软件。白色画布、蓝色平面分区、安静的应用框架 Chrome 和 8px 控件圆角。",
+    "category": "开发工具",
+    "tagsZh": [
+      "企业",
+      "软件",
+      "后台",
+      "蓝色"
+    ],
+    "styleKeywords": [
+      "白色画布",
+      "SAP 蓝",
+      "应用框架",
+      "平面分区"
+    ],
+    "aliases": [
+      "sap",
+      "SAP",
+      "企业",
+      "软件",
+      "后台",
+      "蓝色"
+    ],
+    "useCases": [
+      "企业后台",
+      "SaaS 产品页",
+      "业务工作台"
+    ],
+    "previewLight": "design-md/sap/preview.html",
+    "previewDark": "design-md/sap/preview-dark.html",
+    "readmePath": "design-md/sap/README.md",
+    "designPath": "design-md/sap/DESIGN.md",
+    "updatedAt": "2026-11-13",
+    "positioningZh": "重视结构清晰、可读性和文档感，适合开发者和 B 端产品。",
+    "bestFor": [
+      "企业后台",
+      "SaaS 产品页",
+      "业务工作台",
+      "开发者官网"
+    ],
+    "avoidFor": [
+      "强娱乐化内容页",
+      "情绪导向的品牌叙事页"
+    ],
+    "aiChecklist": [
+      "保证标题层级明确",
+      "让按钮和代码区块保持克制",
+      "优先确保信息扫描效率"
+    ],
+    "recommendedPromptZh": "参考 SAP / SAP 的视觉语言，设计一个中文 企业后台，保留其配色、字重层级、卡片样式和留白节奏，同时把标题长度、正文排版和信息密度调整为适合中文阅读的形式。",
+    "relatedItems": [
+      {
+        "slug": "airtable",
+        "nameZh": "Airtable"
+      },
+      {
+        "slug": "clickhouse",
+        "nameZh": "ClickHouse"
+      },
+      {
+        "slug": "composio",
+        "nameZh": "Composio"
       }
     ]
   },
@@ -3874,16 +4574,16 @@ window.DESIGNS = [
     "recommendedPromptZh": "参考 Spotify / Spotify 的视觉语言，设计一个中文 内容社区，保留其配色、字重层级、卡片样式和留白节奏，同时把标题长度、正文排版和信息密度调整为适合中文阅读的形式。",
     "relatedItems": [
       {
+        "slug": "aljazeera",
+        "nameZh": "半岛电视台"
+      },
+      {
+        "slug": "mydealz",
+        "nameZh": "mydealz"
+      },
+      {
         "slug": "nintendo-2001",
         "nameZh": "Nintendo 2001"
-      },
-      {
-        "slug": "pinterest",
-        "nameZh": "Pinterest"
-      },
-      {
-        "slug": "playstation",
-        "nameZh": "PlayStation"
       }
     ]
   },
@@ -4011,16 +4711,16 @@ window.DESIGNS = [
     "recommendedPromptZh": "参考 Stripe / Stripe 的视觉语言，设计一个中文 官网落地页，保留其配色、字重层级、卡片样式和留白节奏，同时把标题长度、正文排版和信息密度调整为适合中文阅读的形式。",
     "relatedItems": [
       {
+        "slug": "1win",
+        "nameZh": "1win"
+      },
+      {
         "slug": "binance",
         "nameZh": "币安"
       },
       {
         "slug": "coinbase",
         "nameZh": "Coinbase"
-      },
-      {
-        "slug": "kraken",
-        "nameZh": "Kraken"
       }
     ]
   },
@@ -4275,16 +4975,16 @@ window.DESIGNS = [
     "recommendedPromptZh": "参考 The Verge / The Verge 的视觉语言，设计一个中文 内容社区，保留其配色、字重层级、卡片样式和留白节奏，同时把标题长度、正文排版和信息密度调整为适合中文阅读的形式。",
     "relatedItems": [
       {
+        "slug": "aljazeera",
+        "nameZh": "半岛电视台"
+      },
+      {
+        "slug": "mydealz",
+        "nameZh": "mydealz"
+      },
+      {
         "slug": "nintendo-2001",
         "nameZh": "Nintendo 2001"
-      },
-      {
-        "slug": "pinterest",
-        "nameZh": "Pinterest"
-      },
-      {
-        "slug": "playstation",
-        "nameZh": "PlayStation"
       }
     ]
   },
@@ -4810,16 +5510,16 @@ window.DESIGNS = [
     "recommendedPromptZh": "参考 WIRED / WIRED 的视觉语言，设计一个中文 内容社区，保留其配色、字重层级、卡片样式和留白节奏，同时把标题长度、正文排版和信息密度调整为适合中文阅读的形式。",
     "relatedItems": [
       {
+        "slug": "aljazeera",
+        "nameZh": "半岛电视台"
+      },
+      {
+        "slug": "mydealz",
+        "nameZh": "mydealz"
+      },
+      {
         "slug": "nintendo-2001",
         "nameZh": "Nintendo 2001"
-      },
-      {
-        "slug": "pinterest",
-        "nameZh": "Pinterest"
-      },
-      {
-        "slug": "playstation",
-        "nameZh": "PlayStation"
       }
     ]
   },
@@ -4876,16 +5576,16 @@ window.DESIGNS = [
     "recommendedPromptZh": "参考 Wise / Wise 的视觉语言，设计一个中文 官网落地页，保留其配色、字重层级、卡片样式和留白节奏，同时把标题长度、正文排版和信息密度调整为适合中文阅读的形式。",
     "relatedItems": [
       {
+        "slug": "1win",
+        "nameZh": "1win"
+      },
+      {
         "slug": "binance",
         "nameZh": "币安"
       },
       {
         "slug": "coinbase",
         "nameZh": "Coinbase"
-      },
-      {
-        "slug": "kraken",
-        "nameZh": "Kraken"
       }
     ]
   },
