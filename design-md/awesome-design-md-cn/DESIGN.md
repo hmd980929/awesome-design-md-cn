@@ -2,176 +2,153 @@
 
 ## 1. Visual Theme & Atmosphere
 
-awesome-design-md-cn is a Chinese-first resource-library interface built for long browsing sessions. It should feel technical, calm, and editorial instead of loud or overly decorative. The visual language is defined by a light cold-gray canvas, a deep dark hero, and a single restrained blue accent. The goal is low fatigue: reduce color noise, reduce pure-white glare, and keep hierarchy stable even when there are many cards on screen.
+awesome-design-md-cn is a Chinese-first design archive for browsing DESIGN.md references over long sessions. It should feel like a well-edited reference room: tactile, calm, precise, and slightly archival. The current direction is an editorial archive rather than a generic SaaS dashboard.
 
-The page favors structure over spectacle. A sticky left filter rail creates a stable control area, while the content column on the right stays compact and easy to scan. Cards are intentionally smaller than marketing blocks. They behave like directory entries rather than showcase posters.
+The visual language combines a warm paper canvas, ink-black structure, brick-red indexing, and a restrained steel-blue support color. Thin rules, numbered labels, archive tags, and directory cards make a large collection feel navigable without turning every item into a marketing tile.
 
-This system is especially tuned for Chinese content. Titles should stay concise, descriptive text should be short, and information density should feel deliberate rather than crowded.
+**Key characteristics**
 
-**Key Characteristics:**
-- Cold gray page canvas with soft white panels
-- Deep charcoal hero with restrained glow accents
-- One accent color only: electric/cool blue
-- Sticky left sidebar for filters on desktop
-- Compact directory cards with clear primary/secondary hierarchy
-- Low-fatigue surfaces: avoid repeated bright white blocks
-- Chinese-first copy density and spacing rhythm
+- Warm paper canvas with a quiet paper grain and fine grid
+- Ink-black headers, rules, and strong structural blocks
+- Brick-red accent for index marks, active states, and links
+- Small steel-blue details for focus and secondary emphasis
+- Serif display typography paired with restrained sans-serif body copy
+- Slightly asymmetric hero composition with an archive-side note
+- Directory cards that read like catalog entries
+- Chinese-first copy density for long browsing sessions
 
 ## 2. Color Palette & Roles
 
-### Primary
-- **Graphite** (`#111318`): Hero background, strong text, dark containers
-- **Ink** (`#1f2937`): Secondary dark text and high-emphasis UI chrome
-- **Accent Blue** (`#4b6bff`): Interactive emphasis, active chips, subtle highlights
+### Core
 
-### Surface & Background
-- **Page Canvas** (`#f2f5f9`): Global background, slightly cooler than white
-- **Panel White** (`rgba(255, 255, 255, 0.82)`): Main content panels
-- **Card Surface** (`#f7f9fc`): Directory cards
-- **Raised Surface** (`#fbfcfe`): Hovered cards and emphasized containers
-- **Soft Border** (`rgba(15, 23, 42, 0.08)`): Default borders
+- **Paper** (#f3eee6): Global canvas and quiet reading surface
+- **Paper Deep** (#e8dfd2): Recessed groups and secondary surfaces
+- **Surface** (#fffdf9): Panels and cards
+- **Ink** (#171614): Primary text, rules, and structural contrast
+- **Ink Soft** (#2b2925): Secondary headings and control chrome
+
+### Accents
+
+- **Brick** (#bf4b34): Index marks, active states, and important links
+- **Brick Dark** (#8f3224): Hover and emphasis states
+- **Steel Blue** (#456b92): Focus rings and small supporting cues
+- **Steel Blue Soft** (#dce7ef): Quiet selection and information fills
 
 ### Supporting
-- **Muted Text** (`rgba(0, 0, 0, 0.62)`): Secondary descriptions
-- **Quiet Text** (`rgba(0, 0, 0, 0.48)`): Hints, notes, counts
-- **Accent Wash** (`rgba(75, 107, 255, 0.06)`): Active chips, subtle backgrounds
+
+- **Muted** (#6f675e): Supporting copy and metadata
+- **Line** (#d5cabc): Fine grid and panel borders
+- **Line Strong** (#a99b8b): Section rules and primary dividers
 
 ## 3. Typography Rules
 
-### Font Family
-- **Primary**: `SF Pro Display, PingFang SC, Hiragino Sans GB, Microsoft YaHei, system-ui, sans-serif`
-- **UI Labels / Mono Accent**: `SF Mono, JetBrains Mono, ui-monospace, monospace`
+- **Display**: Iowan Old Style, Baskerville, Songti SC, STSong, serif
+- **Body**: Avenir Next, PingFang SC, Noto Sans SC, Hiragino Sans GB, sans-serif
+- **Labels**: SFMono-Regular, Cascadia Code, Roboto Mono, monospace
 
-### Hierarchy
+| Role | Size | Weight | Line Height | Notes |
+|------|------|--------|-------------|-------|
+| Hero title | 52–72px | 650 | 0.96–1.02 | Short, editorial, slightly asymmetric |
+| Section title | 28–40px | 650 | 1.02–1.10 | Serif, compact |
+| Card title | 18–22px | 700 | 1.10–1.20 | Strong catalog entry anchor |
+| Body | 14–15px | 400 | 1.65 | Comfortable Chinese reading |
+| Archive label | 10–12px | 600 | 1.00 | Monospace, uppercase or numbered |
 
-| Role | Size | Weight | Line Height | Letter Spacing | Notes |
-|------|------|--------|-------------|----------------|-------|
-| Hero Title | 48px | 620 | 1.02 | -0.05em | Very concise, one-line preferred |
-| Section Title | 28px | 400 | 1.04 | -0.04em | Calm and editorial |
-| Card Title | 18px | 640 | 1.08 | -0.04em | Strongest element inside cards |
-| Body | 14px | 330 | 1.60 | -0.01em | Main descriptive copy |
-| Small UI Text | 13px | 400 | 1.55 | -0.01em | Notes, helper copy |
-| Label / Badge | 11px–12px | 540 | 1.00 | 0.04em | Counters, chips, metadata |
-
-### Principles
-- Keep Chinese headlines short. Prefer compression through editing, not through tiny font sizes.
-- Use weight and spacing for hierarchy before using color.
-- Secondary copy should stay lighter and quieter than titles.
-- Avoid long multi-line hero paragraphs.
+Use type, spacing, and rules before adding more colors. Keep labels short and descriptions concrete.
 
 ## 4. Component Stylings
 
 ### Hero
-- Deep dark surface with a soft focused glow
-- Very short title + one supporting sentence
-- No dense control panels in the hero itself
 
-### Sticky Filter Rail
-- Desktop-only sticky behavior
-- Soft panel surface, subtle borders, low visual noise
-- Search first, then chips for category and scenario
-- Chips use pill geometry and very light accent fill for active states
+Use a strong top rule, a concise headline, and a secondary archive note. Let the copy and index numbers create the asymmetry; do not fill the hero with controls.
+
+### Navigation
+
+Keep the topbar quiet and editorial. Use small arrow markers, a thin divider, and a serif brand lockup.
+
+### Filter Rail
+
+Treat filters as a reading index. Search comes first, followed by category and scenario chips. Keep the rail visually stable while the content column scrolls.
 
 ### Directory Cards
-- Compact height, designed for scanning
-- Card title, subtitle, short summary, one row of metadata, two actions
-- Avoid decorative preview blocks unless they contain real information
-- Default state should be slightly gray, not pure white
 
-### Buttons & Actions
-- Pill radius for lightweight product feel
-- Primary action: subtle blue emphasis, not heavy solid fill
-- Secondary action: quiet outline / soft white fill
-- Actions should not dominate the card
+Cards should look like catalog entries: an index kicker, a title, a short summary, one metadata row, and two small actions. Keep radius restrained and use rules and surface contrast instead of floating shadows.
 
-### Panels
-- Use soft white translucent panels over the cold-gray canvas
-- Keep radius moderate (`12px`)
-- Borders should be visible but quiet
+### Detail Pages
+
+Use the same hero, rules, labels, and paper surfaces as the home page. Preview links, prompt blocks, and metadata should feel like pages in the same archive.
 
 ## 5. Layout Principles
 
-### Spacing System
-- Base rhythm: `8px`
-- Common scale: `8 / 12 / 16 / 24 / 32 / 40 / 64`
+- Main shell: wide editorial container with generous but controlled margins
+- Browse area: stable filter rail plus a content column
+- Library begins directly after the hero and filter controls
+- Custom and reference cases remain separate collections
+- Use fine grid lines and numbered labels to support scanning
+- Prefer asymmetry in the hero and regular rhythm in dense lists
 
-### Grid & Container
-- Outer shell: wide desktop container with breathing room
-- Browse area: `sidebar + content` split on desktop
-- Featured section first, grouped library second
-- Custom cases separated from reference cases
+### Spacing scale
 
-### Whitespace Philosophy
-- Use whitespace to separate actions from content, not to create empty spectacle
-- Reduce giant decorative gaps in information-heavy pages
-- Cards should feel calm and ordered, not oversized
+4 / 8 / 12 / 16 / 24 / 32 / 48 / 64
 
-### Border Radius Scale
-- `10px`: Cards
-- `12px`: Panels
-- `999px`: Chips, pills, small actions
+### Radius scale
+
+4px cards and panels, 8px controls, 999px only for compact status pills
 
 ## 6. Depth & Elevation
 
-| Level | Treatment | Use |
-|-------|-----------|-----|
-| Level 0 | Canvas only | Page background |
-| Level 1 | Soft border + subtle white panel | Filter rail, section panels |
-| Level 2 | Slightly brighter surface | Hovered cards, emphasized blocks |
+- **Flat**: Paper canvas and plain reading areas
+- **Card**: Surface with a fine border
+- **Floating**: Subtle warm shadow reserved for hero notes and focused panels
 
-Depth should come from surface contrast and rhythm, not from heavy shadows.
+Depth should come from paper, rules, and spacing. Avoid glossy gradients and inflated card shadows.
 
 ## 7. Do's and Don'ts
 
 ### Do
-- Keep the palette restrained and mostly neutral
-- Use the blue accent only where interaction or grouping needs help
-- Separate custom cases from reference cases
-- Let the sidebar stay stable while the result area scrolls
-- Make cards compact and easy to compare
-- Tune copy density for Chinese reading
+
+- Use warm paper, ink, and brick-red as the main visual grammar
+- Make numbering and archive labels useful for orientation
+- Keep Chinese copy edited and compact
+- Use serif headlines for editorial character
+- Let cards behave like index entries
 
 ### Don't
-- Don't fill the page with bright white cards
-- Don't use colorful placeholder blocks that carry no information
-- Don't put bulky filters inside the hero
-- Don't write long hero paragraphs
-- Don't turn the page into a marketing landing page
-- Don't mix multiple accent colors
+
+- Do not use purple gradients or default AI dashboard styling
+- Do not stack large showcase cards before the library
+- Do not over-round every surface
+- Do not use accent colors without a structural reason
+- Do not turn the archive into a generic marketing landing page
 
 ## 8. Responsive Behavior
 
-### Breakpoints
-| Name | Width | Key Changes |
-|------|-------|-------------|
-| Mobile | <720px | Single column, sidebar becomes normal block |
-| Tablet | 720–960px | Reduced spacing, smaller titles |
-| Desktop | 960px+ | Sticky sidebar + multi-column card layout |
+- **Mobile**: Single column; the filter rail becomes a normal block
+- **Tablet**: Reduce outer spacing and card columns
+- **Desktop**: Keep the sidebar stable and let the catalog breathe
 
-### Collapsing Strategy
-- Hero compresses to a single-column introduction
-- Sidebar loses sticky behavior on smaller screens
-- Featured and library grids reduce to one column on mobile
-- Keep the same hierarchy; only simplify layout density
+The hierarchy stays the same at every width: archive label, title, summary, filter index, then catalog entries.
 
 ## 9. Agent Prompt Guide
 
-### Quick Style Summary
-- Cold gray resource-library interface
-- Deep charcoal hero
-- One restrained cool-blue accent
-- Sticky left filter rail
-- Compact directory cards
-- Chinese-first information density
+### Quick style summary
 
-### Example Prompts
-- "Design a Chinese resource library page with a cold-gray canvas, a dark hero, and a restrained cool-blue accent. Use a sticky left filter rail and compact directory cards on the right."
-- "Create a low-fatigue design index page. Avoid colorful preview blocks, keep cards slightly gray instead of pure white, and make actions small pill buttons."
-- "Build a Chinese tool catalog interface with a calm editorial hierarchy: short hero title, quiet secondary copy, grouped sections, and compact comparison cards."
+- Chinese editorial design archive
+- Warm paper canvas
+- Ink-black structure
+- Brick-red index accent
+- Serif headlines and restrained sans body
+- Fine rules, numbers, archive labels, and directory cards
+- Slightly asymmetric hero for a memorable first impression
 
-### Iteration Guide
-1. Start with the neutral surface system before adding any accent
-2. Keep hero copy extremely short
-3. Treat cards as directory entries, not showcases
-4. Reduce white glare and color fatigue first
-5. Separate custom and reference content explicitly
+### Example prompt
+
+Design a Chinese design reference archive with a warm paper canvas, ink-black structure, and a restrained brick-red index accent. Use serif headlines, quiet sans-serif body copy, fine grid rules, archive labels, numbered sections, and directory cards. Keep the hero slightly asymmetric, the content dense but readable, and avoid purple gradients, excessive rounding, and generic AI dashboard patterns.
+
+### Iteration guide
+
+1. Establish paper, ink, and rule tokens first
+2. Set the editorial type hierarchy
+3. Add numbered labels and archive metadata
+4. Build the catalog cards as index entries
+5. Use brick red only where the archive needs direction

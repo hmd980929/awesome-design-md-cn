@@ -6,21 +6,22 @@
 <title>Design System Preview: awesome-design-md-cn (Light)</title>
 <style>
   :root {
-    --bg-page: #f2f5f9;
-    --bg-card: #f7f9fc;
-    --bg-panel: rgba(255, 255, 255, 0.82);
-    --bg-panel-strong: #fbfcfe;
-    --bg-dark: #111318;
-    --text-primary: #111318;
-    --text-secondary: rgba(17, 19, 24, 0.72);
-    --text-muted: rgba(17, 19, 24, 0.5);
-    --line: rgba(15, 23, 42, 0.08);
-    --line-strong: rgba(15, 23, 42, 0.12);
-    --accent: #4b6bff;
-    --accent-soft: rgba(75, 107, 255, 0.08);
-    --accent-soft-strong: rgba(75, 107, 255, 0.14);
-    --shadow-soft: 0 10px 30px rgba(15, 23, 42, 0.05);
-    --font-sans: "SF Pro Display", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", system-ui, sans-serif;
+    --bg-page: #f3eee6;
+    --bg-card: #fffdf9;
+    --bg-panel: rgba(255, 253, 249, 0.88);
+    --bg-panel-strong: #f8f3ec;
+    --bg-dark: #20231f;
+    --text-primary: #20231f;
+    --text-secondary: rgba(43, 41, 37, 0.72);
+    --text-muted: rgba(43, 41, 37, 0.5);
+    --line: #d5cabc;
+    --line-strong: #a99b8b;
+    --accent: #bf4b34;
+    --accent-soft: rgba(191, 75, 52, 0.10);
+    --accent-soft-strong: rgba(191, 75, 52, 0.18);
+    --shadow-soft: 0 10px 30px rgba(54, 44, 33, 0.08);
+    --font-serif: "Iowan Old Style", "Baskerville", "Songti SC", "STSong", serif;
+    --font-sans: "Avenir Next", "PingFang SC", "Noto Sans SC", "Hiragino Sans GB", sans-serif;
     --font-mono: "SF Mono", "JetBrains Mono", ui-monospace, monospace;
   }
 
@@ -104,24 +105,28 @@
   }
 
   .hero {
+    position: relative;
     max-width: 1240px;
     margin: 24px auto 0;
-    padding: 42px 32px;
-    border: 1px solid rgba(255, 255, 255, 0.06);
-    border-radius: 22px;
+    padding: 48px 42px 44px;
+    border: 1px solid rgba(255, 250, 244, 0.2);
+    border-top: 6px solid var(--accent);
+    border-radius: 4px;
     background:
-      radial-gradient(circle at 82% 20%, rgba(75, 107, 255, 0.28), transparent 24%),
-      linear-gradient(180deg, #161a22, #111318);
-    color: #ffffff;
+      linear-gradient(90deg, rgba(255, 250, 244, 0.06) 1px, transparent 1px),
+      linear-gradient(rgba(255, 250, 244, 0.06) 1px, transparent 1px),
+      linear-gradient(135deg, #20231f 0%, #292c27 100%);
+    background-size: 34px 34px, 34px 34px, auto;
+    color: #fffaf4;
     overflow: hidden;
   }
 
   .hero-label {
     display: inline-flex;
     align-items: center;
-    min-height: 30px;
-    padding: 0 12px;
-    border-radius: 999px;
+    min-height: 28px;
+    padding: 0 10px;
+    border-radius: 2px;
     border: 1px solid rgba(255, 255, 255, 0.14);
     background: rgba(255, 255, 255, 0.06);
     font-size: 11px;
@@ -133,10 +138,11 @@
   .hero h1 {
     margin-top: 18px;
     max-width: 760px;
-    font-size: 64px;
-    font-weight: 620;
-    line-height: 0.98;
-    letter-spacing: -0.055em;
+    font-family: var(--font-serif);
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 0.96;
+    letter-spacing: -0.045em;
   }
 
   .hero p {
@@ -170,9 +176,9 @@
   }
 
   .btn-primary {
-    background: rgba(75, 107, 255, 0.16);
-    border-color: rgba(75, 107, 255, 0.34);
-    color: #ffffff;
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fffaf4;
   }
 
   .btn-secondary {
@@ -523,8 +529,8 @@
   }
 
   .elevation-flat { box-shadow: none; }
-  .elevation-soft { box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05); }
-  .elevation-hover { box-shadow: 0 16px 42px rgba(15, 23, 42, 0.08); }
+  .elevation-soft { box-shadow: 0 10px 30px rgba(54, 44, 33, 0.08); }
+  .elevation-hover { box-shadow: 0 16px 42px #d5cabc; }
 
   .token-note {
     margin-top: 6px;
@@ -557,6 +563,8 @@
     .section-title { font-size: 28px; }
   }
 </style>
+  <link rel="icon" href="../../assets/favicon/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon/favicon-32.png">
 </head>
 <body>
 
@@ -577,8 +585,8 @@
 
 <section class="hero">
   <div class="hero-label">Custom Design System</div>
-  <h1>Lightweight tech library UI, built for long Chinese reading sessions.</h1>
-  <p>This preview turns the custom `awesome-design-md-cn` case into the same kind of token catalog used by the upstream examples: colors, typography, buttons, cards, filters, spacing, radius, and elevation.</p>
+  <h1>An editorial archive for design systems, made for long reading sessions.</h1>
+  <p>This preview turns the custom `awesome-design-md-cn` case into a token catalog: colors, typography, buttons, cards, filters, spacing, radius, and elevation.</p>
   <div class="hero-actions">
     <span class="btn btn-primary">Use This Style</span>
     <span class="btn btn-secondary">Open DESIGN.md</span>
@@ -589,35 +597,35 @@
 
 <section class="section" id="colors">
   <div class="section-label">01 / Colors</div>
-  <h2 class="section-title">Cold Gray Palette</h2>
-  <p class="section-copy">This system avoids harsh white glare. Surfaces are slightly cooled and separated by subtle contrast, while accent color appears only where interaction needs emphasis.</p>
+  <h2 class="section-title" style="font-family:var(--font-serif);">Editorial Archive Palette</h2>
+  <p class="section-copy">Warm paper, ink structure, and fine rules keep the archive readable; brick red appears only where the index needs direction.</p>
 
   <div class="color-group">
     <div class="color-group-title">Core Surfaces</div>
     <div class="color-grid">
-      <article class="swatch"><div class="swatch-color" style="background:#f2f5f9;"></div><div class="swatch-info"><div class="swatch-name">Page Canvas</div><div class="swatch-code">#f2f5f9</div><div class="swatch-role">Global background</div></div></article>
+      <article class="swatch"><div class="swatch-color" style="background:#f3eee6;"></div><div class="swatch-info"><div class="swatch-name">Page Canvas</div><div class="swatch-code">#f3eee6</div><div class="swatch-role">Global background</div></div></article>
       <article class="swatch"><div class="swatch-color" style="background:rgba(255,255,255,0.82);"></div><div class="swatch-info"><div class="swatch-name">Panel White</div><div class="swatch-code">rgba(255,255,255,0.82)</div><div class="swatch-role">Section panels</div></div></article>
-      <article class="swatch"><div class="swatch-color" style="background:#f7f9fc;"></div><div class="swatch-info"><div class="swatch-name">Card Surface</div><div class="swatch-code">#f7f9fc</div><div class="swatch-role">Directory cards</div></div></article>
-      <article class="swatch"><div class="swatch-color" style="background:#fbfcfe;"></div><div class="swatch-info"><div class="swatch-name">Raised Surface</div><div class="swatch-code">#fbfcfe</div><div class="swatch-role">Hover state</div></div></article>
+      <article class="swatch"><div class="swatch-color" style="background:#fffdf9;"></div><div class="swatch-info"><div class="swatch-name">Card Surface</div><div class="swatch-code">#fffdf9</div><div class="swatch-role">Directory cards</div></div></article>
+      <article class="swatch"><div class="swatch-color" style="background:#f8f3ec;"></div><div class="swatch-info"><div class="swatch-name">Raised Surface</div><div class="swatch-code">#f8f3ec</div><div class="swatch-role">Hover state</div></div></article>
     </div>
   </div>
 
   <div class="color-group">
     <div class="color-group-title">Text & Structure</div>
     <div class="color-grid">
-      <article class="swatch"><div class="swatch-color" style="background:#111318;"></div><div class="swatch-info"><div class="swatch-name">Graphite</div><div class="swatch-code">#111318</div><div class="swatch-role">Primary text, dark hero</div></div></article>
-      <article class="swatch"><div class="swatch-color" style="background:#1f2937;"></div><div class="swatch-info"><div class="swatch-name">Ink</div><div class="swatch-code">#1f2937</div><div class="swatch-role">High emphasis UI</div></div></article>
-      <article class="swatch"><div class="swatch-color" style="background:rgba(17,19,24,0.72);"></div><div class="swatch-info"><div class="swatch-name">Secondary Text</div><div class="swatch-code">rgba(17,19,24,0.72)</div><div class="swatch-role">Supporting copy</div></div></article>
-      <article class="swatch"><div class="swatch-color" style="background:rgba(15,23,42,0.08);"></div><div class="swatch-info"><div class="swatch-name">Soft Border</div><div class="swatch-code">rgba(15,23,42,0.08)</div><div class="swatch-role">Quiet outlines</div></div></article>
+      <article class="swatch"><div class="swatch-color" style="background:#20231f;"></div><div class="swatch-info"><div class="swatch-name">Graphite</div><div class="swatch-code">#20231f</div><div class="swatch-role">Primary text, dark hero</div></div></article>
+      <article class="swatch"><div class="swatch-color" style="background:#2b2925;"></div><div class="swatch-info"><div class="swatch-name">Ink</div><div class="swatch-code">#2b2925</div><div class="swatch-role">High emphasis UI</div></div></article>
+      <article class="swatch"><div class="swatch-color" style="background:rgba(43,41,37,0.72);"></div><div class="swatch-info"><div class="swatch-name">Secondary Text</div><div class="swatch-code">rgba(43,41,37,0.72)</div><div class="swatch-role">Supporting copy</div></div></article>
+      <article class="swatch"><div class="swatch-color" style="background:#d5cabc;"></div><div class="swatch-info"><div class="swatch-name">Soft Border</div><div class="swatch-code">#d5cabc</div><div class="swatch-role">Quiet outlines</div></div></article>
     </div>
   </div>
 
   <div class="color-group">
     <div class="color-group-title">Accent System</div>
     <div class="color-grid">
-      <article class="swatch"><div class="swatch-color" style="background:#4b6bff;"></div><div class="swatch-info"><div class="swatch-name">Accent Blue</div><div class="swatch-code">#4b6bff</div><div class="swatch-role">Active states, links</div></div></article>
-      <article class="swatch"><div class="swatch-color" style="background:rgba(75,107,255,0.08);"></div><div class="swatch-info"><div class="swatch-name">Accent Wash</div><div class="swatch-code">rgba(75,107,255,0.08)</div><div class="swatch-role">Soft active fills</div></div></article>
-      <article class="swatch"><div class="swatch-color" style="background:rgba(75,107,255,0.14);"></div><div class="swatch-info"><div class="swatch-name">Accent Strong Wash</div><div class="swatch-code">rgba(75,107,255,0.14)</div><div class="swatch-role">Highlighted custom case</div></div></article>
+      <article class="swatch"><div class="swatch-color" style="background:#bf4b34;"></div><div class="swatch-info"><div class="swatch-name">Brick Red</div><div class="swatch-code">#bf4b34</div><div class="swatch-role">Index emphasis, links</div></div></article>
+      <article class="swatch"><div class="swatch-color" style="background:rgba(191,75,52,0.10);"></div><div class="swatch-info"><div class="swatch-name">Accent Wash</div><div class="swatch-code">rgba(191,75,52,0.10)</div><div class="swatch-role">Soft active fills</div></div></article>
+      <article class="swatch"><div class="swatch-color" style="background:rgba(191,75,52,0.18);"></div><div class="swatch-info"><div class="swatch-name">Accent Strong Wash</div><div class="swatch-code">rgba(191,75,52,0.18)</div><div class="swatch-role">Highlighted archive case</div></div></article>
     </div>
   </div>
 </section>
@@ -626,24 +634,24 @@
 
 <section class="section" id="typography">
   <div class="section-label">02 / Typography</div>
-  <h2 class="section-title">Chinese-First Hierarchy</h2>
-  <p class="section-copy">The type system stays restrained. Big type is reserved for short hero moments, while the rest of the page relies on precise spacing and quiet secondary copy.</p>
+  <h2 class="section-title" style="font-family:var(--font-serif);">Editorial Type Hierarchy</h2>
+  <p class="section-copy">The type system stays restrained. Serif headlines carry the editorial character while sans-serif copy keeps dense catalog pages readable.</p>
 
   <div class="type-list">
     <div class="type-item">
-      <div class="type-hero">先选风格，再写界面。</div>
+      <div class="type-hero" style="font-family:var(--font-serif);">Choose the language before you write the interface.</div>
       <div class="type-meta">Hero / 64px / 620 / -0.055em</div>
     </div>
     <div class="type-item">
-      <div class="type-section">设计系统库</div>
+      <div class="type-section" style="font-family:var(--font-serif);">Design system library</div>
       <div class="type-meta">Section Title / 36px / 620 / -0.045em</div>
     </div>
     <div class="type-item">
-      <div class="type-card">本站风格</div>
+      <div class="type-card">Site archive style</div>
       <div class="type-meta">Card Title / 18px / 640 / -0.04em</div>
     </div>
     <div class="type-item">
-      <div class="type-body">冷灰科技风的中文资源库界面，强调低疲劳浏览、侧栏筛选和紧凑目录卡片。</div>
+      <div class="type-body">A Chinese editorial archive on warm paper, built with ink structure, brick-red indexing, and fine rules.</div>
       <div class="type-meta">Body / 14px / 330 / 1.6</div>
     </div>
     <div class="type-item">
@@ -657,20 +665,20 @@
 
 <section class="section" id="buttons">
   <div class="section-label">03 / Buttons & Chips</div>
-  <h2 class="section-title">Quiet Controls</h2>
-  <p class="section-copy">Buttons and chips should feel like small product controls, not loud marketing CTAs. The accent is used sparingly and sits on top of neutral surfaces.</p>
+  <h2 class="section-title" style="font-family:var(--font-serif);">Quiet Archive Controls</h2>
+  <p class="section-copy">Buttons and chips behave like catalog controls. Brick red marks direction without turning the archive into a marketing interface.</p>
 
   <div class="button-row">
     <div class="button-item">
-      <span class="btn btn-light-primary">查看详情</span>
+      <span class="btn btn-light-primary">View details</span>
       <div class="button-label">Primary pill</div>
     </div>
     <div class="button-item">
-      <span class="btn btn-light-secondary">打开预览</span>
+      <span class="btn btn-light-secondary">Open preview</span>
       <div class="button-label">Secondary pill</div>
     </div>
     <div class="button-item">
-      <span class="btn btn-light-ghost">清空筛选</span>
+      <span class="btn btn-light-ghost">Clear filters</span>
       <div class="button-label">Ghost action</div>
     </div>
   </div>
@@ -679,15 +687,15 @@
 
   <div class="chip-row">
     <div class="chip-item">
-      <span class="chip chip-active">自定义案例</span>
+      <span class="chip chip-active">Custom case</span>
       <div class="chip-label">Active chip</div>
     </div>
     <div class="chip-item">
-      <span class="chip">参考案例</span>
+      <span class="chip">Reference case</span>
       <div class="chip-label">Default chip</div>
     </div>
     <div class="chip-item">
-      <span class="chip">设计资源库</span>
+      <span class="chip">Design archive</span>
       <div class="chip-label">Scenario chip</div>
     </div>
   </div>
@@ -697,39 +705,39 @@
 
 <section class="section" id="components">
   <div class="section-label">04 / Components</div>
-  <h2 class="section-title">Sidebar + Compact Cards</h2>
+  <h2 class="section-title" style="font-family:var(--font-serif);">Index Rail + Directory Cards</h2>
   <p class="section-copy">The signature pattern is a stable left filter rail and a compact directory grid on the right. The cards behave like index entries, not showcase banners.</p>
 
   <div class="component-grid">
     <aside class="panel">
       <div class="section-label" style="margin-bottom:10px;">Browse</div>
-      <h3>筛选风格</h3>
-      <p>搜索、分类、场景都应该在同一个稳定区域，减少滚动中的位置切换。</p>
-      <input class="search-input" value="中文 / 科技 / 资源库" aria-label="Search">
+      <h3>Filter styles</h3>
+      <p>Keep search, categories, and scenarios in one stable area so the reading position does not shift while browsing.</p>
+      <input class="search-input" value="archive / editorial / directory" aria-label="Search">
       <div class="card-meta" style="margin-top:14px;">
-        <span class="meta-pill">全部</span>
-        <span class="meta-pill" style="background:var(--accent-soft); color:var(--accent);">自定义案例</span>
-        <span class="meta-pill">参考案例</span>
+        <span class="meta-pill">All</span>
+        <span class="meta-pill" style="background:var(--accent-soft); color:var(--accent);">Custom case</span>
+        <span class="meta-pill">Reference case</span>
       </div>
       <div class="card-meta" style="margin-top:10px;">
-        <span class="meta-pill">设计资源库</span>
-        <span class="meta-pill">工具聚合页</span>
+        <span class="meta-pill">Design archive</span>
+        <span class="meta-pill">Tool catalog</span>
       </div>
     </aside>
 
     <div class="card-grid">
       <article class="sample-card">
         <div class="card-kicker">Custom</div>
-        <h3>本站风格</h3>
+        <h3>Site archive style</h3>
         <div class="card-sub">awesome-design-md-cn</div>
-        <p>冷灰科技风、侧栏筛选、紧凑目录卡片，适合中文资源索引和工具库。</p>
+        <p>An editorial archive with brick-red indexing and fine rules for Chinese resource directories and tool catalogs.</p>
         <div class="card-meta">
-          <span class="meta-pill" style="background:var(--accent-soft); color:var(--accent);">自定义案例</span>
-          <span class="meta-pill">设计资源库</span>
+          <span class="meta-pill" style="background:var(--accent-soft); color:var(--accent);">Custom case</span>
+          <span class="meta-pill">Design archive</span>
         </div>
         <div class="action-row">
-          <span class="mini-btn mini-btn-primary">查看详情</span>
-          <span class="mini-btn">打开预览</span>
+          <span class="mini-btn mini-btn-primary">View details</span>
+          <span class="mini-btn">Open preview</span>
         </div>
       </article>
 
@@ -737,14 +745,14 @@
         <div class="card-kicker">Reference</div>
         <h3>Figma</h3>
         <div class="card-sub">Figma</div>
-        <p>黑白 chrome 与彩色内容区分明确，适合作为效率工具类页面的参考。</p>
+        <p>Clear separation between black-and-white chrome and colorful content, useful for productivity tool interfaces.</p>
         <div class="card-meta">
-          <span class="meta-pill">参考案例</span>
-          <span class="meta-pill">工作台</span>
+          <span class="meta-pill">Reference case</span>
+          <span class="meta-pill">Workspace</span>
         </div>
         <div class="action-row">
-          <span class="mini-btn mini-btn-primary">查看详情</span>
-          <span class="mini-btn">打开预览</span>
+          <span class="mini-btn mini-btn-primary">View details</span>
+          <span class="mini-btn">Open preview</span>
         </div>
       </article>
     </div>
@@ -755,7 +763,7 @@
 
 <section class="section" id="spacing">
   <div class="section-label">05 / Spacing & Depth</div>
-  <h2 class="section-title">Spacing, Radius, Elevation</h2>
+  <h2 class="section-title" style="font-family:var(--font-serif);">Spacing, Radius, Elevation</h2>
   <p class="section-copy">This system depends more on rhythm and surface contrast than on decoration. Spacing stays disciplined, radius stays moderate, and shadows stay soft.</p>
 
   <div class="color-group">

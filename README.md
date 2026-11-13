@@ -1,10 +1,3 @@
-<a href="https://github.com/VoltAgent/awesome-design-md">
-  <img width="1500" height="801" alt="awesome-design-md" src="https://github.com/user-attachments/assets/d012a0d2-cec3-4630-ba5e-acc339dbe6cf" />
-</a>
-
-<br/>
-<br/>
-
 <div align="center">
   <strong>面向中文用户的 DESIGN.md 资源集合与本地化浏览版本。</strong>
   <br />
@@ -15,7 +8,6 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![DESIGN.md Count](https://img.shields.io/badge/DESIGN.md%20count-85-10b981?style=classic)
-[![Last Update](https://img.shields.io/github/last-commit/fchangjun/awesome-design-md-cn?label=Last%20update&style=classic)](https://github.com/fchangjun/awesome-design-md-cn)
 
 </div>
 
@@ -23,41 +15,41 @@
 
 复制一份 `DESIGN.md` 到你的项目里，告诉 AI Agent “按这个风格给我做一个页面”，就能更稳定地生成接近目标视觉语言的 UI。
 
-这个仓库基于 [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) 做中文本地化整理。目标不是改变原项目定义，而是让原项目对中文用户更友好、更容易理解和使用。
+这是一个面向中文用户的 DESIGN.md 资源集合，提供案例浏览、中文说明、筛选和静态详情页。
 
 目前仓库包含：
 
-- `84` 个参考案例：来自原项目收录的公开网站风格参考
+- `84` 个参考案例：公开网站风格参考
 - `1` 个自定义案例：`awesome-design-md-cn` 自己沉淀出的资源库设计语言
 
 ## 快速入口
 
-- 在线预览：[fchangjun.github.io/awesome-design-md-cn](https://fchangjun.github.io/awesome-design-md-cn/)
 - 使用指南：[guide.html](guide.html)
-- 原项目仓库：[VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md)
-- 原项目 README：[README.md](https://github.com/VoltAgent/awesome-design-md/blob/main/README.md)
 
 ## 更新日志
 
 ### 2026-11-13
 
-- 根据上游 `awesome-design-md` 最新 `main` 快照同步 `84` 个参考案例，新增 1win、Al Jazeera、DJI、Jobright、Mercury、mydealz、NerdWallet、Oracle、Oura、SAP。
-- 更新已有案例的上游 `DESIGN.md` 与 README 内容，保留本地中文元数据、自定义案例和手工预览保护规则。
+- 同步案例快照，新增 1win、Al Jazeera、DJI、Jobright、Mercury、mydealz、NerdWallet、Oracle、Oura、SAP。
+- 更新已有案例的 `DESIGN.md` 与 README 内容，保留本地中文元数据、自定义案例和手工预览保护规则。
 - 为新增案例补齐中文名称、摘要、分类、标签、推荐场景、详情页和明暗预览；新增案例使用同步日期 `2026-11-13`，已有案例保留原有本地日期。
 - 更新首页数据版本、收录总数和 README 收录列表。
+- 统一首页、使用指南和案例详情页的视觉语言：改为编辑部档案馆方向，使用暖纸张底、墨黑结构、砖红索引色、衬线标题和细线网格。
+- 移除首页“推荐起点”区块，让设计系统库直接进入浏览流程，并同步更新“本站风格”案例的元数据、详情页和明暗预览。
+- 清理对外说明中的固定仓库/站点链接与来源署名，案例目录链接改为本地相对路径。
 
 ### 2026-07-07
 
-- 同步上游新增的 `3` 个参考案例：Dell 1996、HP、Nintendo.com 2001。
+- 新增 `3` 个参考案例：Dell 1996、HP、Nintendo.com 2001。
 - 为新增案例补齐中文详情页、README 入口、`DESIGN.md` 路径和明暗预览页。
-- 继续按本仓库 preview catalog 规则，为上游未提供预览界面的新增案例生成本地预览页。
+- 按本仓库 preview catalog 规则，为缺少预览界面的新增案例生成本地预览页。
 - 更新首页数据版本、收录总数和 README 收录列表；新增案例使用本次同步日期 `2026-07-07`，旧案例保留原有本地日期。
 
 ### 2026-05-20
 
-- 同步上游新增的 `13` 个参考案例：Binance、BMW M、Bugatti、Mastercard、Meta、Nike、PlayStation、Shopify、Slack、Starbucks、The Verge、Vodafone、WIRED。
+- 新增 `13` 个参考案例：Binance、BMW M、Bugatti、Mastercard、Meta、Nike、PlayStation、Shopify、Slack、Starbucks、The Verge、Vodafone、WIRED。
 - 为新增案例补齐中文详情页、README 入口、`DESIGN.md` 路径和明暗预览页。
-- 对上游缺失预览界面的新增案例，按本仓库已有 preview catalog 规则生成本地预览页，覆盖颜色、排版、按钮、卡片、表单、间距、圆角和层级展示。
+- 对缺少预览界面的新增案例，按本仓库已有 preview catalog 规则生成本地预览页，覆盖颜色、排版、按钮、卡片、表单、间距、圆角和层级展示。
 - 首页列表卡片增加同步日期标识；旧案例保留本地最后修改日期，只有本次新增案例显示 `2026-05-20`。
 - 新增 `AGENTS.md` 同步规则，要求后续同步时补齐预览页并维护 README 更新日志。
 
@@ -125,127 +117,127 @@ Markdown 也是 LLM 最擅长读取的格式，所以没有额外解析和配置
 
 ### 自定义案例
 
-- [**awesome-design-md-cn**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/awesome-design-md-cn/) - 项目自定义案例。冷灰科技风、低疲劳浏览、左侧筛选、紧凑目录卡片
+- [**awesome-design-md-cn**](design-md/awesome-design-md-cn/) - 项目自定义案例。中文编辑部档案馆、暖纸张底、砖红索引、细线网格与目录式卡片
 
 ### AI 与机器学习
 
-- [**Claude**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/claude/) - Anthropic 的 AI 助手。暖陶土色点缀，干净的编辑式排版
-- [**Cohere**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/cohere/) - 企业 AI 平台。高饱和渐变、数据密集型控制台气质
-- [**ElevenLabs**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/elevenlabs/) - AI 语音平台。深色电影感界面，音频波形视觉
-- [**Minimax**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/minimax/) - AI 模型提供方。大胆深色界面与霓虹强调
-- [**Mistral AI**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/mistral.ai/) - 开放权重 LLM 提供方。法式极简，偏紫色调
-- [**Ollama**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/ollama/) - 本地运行 LLM。终端优先，黑白极简
-- [**Jobright**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/jobright/) - AI 求职平台。薄荷绿、黑白高对比、压缩标题和胶囊按钮
-- [**OpenCode AI**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/opencode.ai/) - AI 编码平台。开发者导向的深色主题
-- [**Replicate**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/replicate/) - 通过 API 运行模型。清爽白底，偏代码导向
-- [**RunwayML**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/runwayml/) - AI 视频生成。电影感深色 UI，媒体展示导向
-- [**Together AI**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/together.ai/) - 开源 AI 基础设施。技术蓝图风格
-- [**VoltAgent**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/voltagent/) - AI Agent 框架。深黑底、祖母绿强调、终端原生气质
-- [**xAI**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/x.ai/) - xAI 实验室。极简黑白、未来感强
+- [**Claude**](design-md/claude/) - Anthropic 的 AI 助手。暖陶土色点缀，干净的编辑式排版
+- [**Cohere**](design-md/cohere/) - 企业 AI 平台。高饱和渐变、数据密集型控制台气质
+- [**ElevenLabs**](design-md/elevenlabs/) - AI 语音平台。深色电影感界面，音频波形视觉
+- [**Minimax**](design-md/minimax/) - AI 模型提供方。大胆深色界面与霓虹强调
+- [**Mistral AI**](design-md/mistral.ai/) - 开放权重 LLM 提供方。法式极简，偏紫色调
+- [**Ollama**](design-md/ollama/) - 本地运行 LLM。终端优先，黑白极简
+- [**Jobright**](design-md/jobright/) - AI 求职平台。薄荷绿、黑白高对比、压缩标题和胶囊按钮
+- [**OpenCode AI**](design-md/opencode.ai/) - AI 编码平台。开发者导向的深色主题
+- [**Replicate**](design-md/replicate/) - 通过 API 运行模型。清爽白底，偏代码导向
+- [**RunwayML**](design-md/runwayml/) - AI 视频生成。电影感深色 UI，媒体展示导向
+- [**Together AI**](design-md/together.ai/) - 开源 AI 基础设施。技术蓝图风格
+- [**VoltAgent**](design-md/voltagent/) - AI Agent 框架。深黑底、祖母绿强调、终端原生气质
+- [**xAI**](design-md/x.ai/) - xAI 实验室。极简黑白、未来感强
 
 ### 开发工具与平台
 
-- [**Cursor**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/cursor/) - AI 代码编辑器。深色界面与渐变强调
-- [**Expo**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/expo/) - React Native 平台。深色主题、紧凑字距、代码导向
-- [**Linear**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/linear.app/) - 面向工程师的项目管理。极简、精确、紫色点缀
-- [**Lovable**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/lovable/) - AI 全栈构建工具。 playful 渐变、友好的开发者气质
-- [**Mintlify**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/mintlify/) - 文档平台。干净、绿色点缀、适合长阅读
-- [**PostHog**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/posthog/) - 产品分析工具。品牌个性强、面向开发者的深色 UI
-- [**Raycast**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/raycast/) - 效率启动器。深色 chrome 与高彩渐变强调
-- [**Resend**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/resend/) - 邮件 API。极简深色主题与等宽字点缀
-- [**Sentry**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/sentry/) - 错误监控。深色数据台，粉紫强调
-- [**Supabase**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/supabase/) - 开源 Firebase 替代方案。深色祖母绿，代码优先
-- [**Superhuman**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/superhuman/) - 高速邮件客户端。高级深色 UI，键盘优先
-- [**Vercel**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/vercel/) - 前端部署平台。黑白精确感，Geist 字体
-- [**Warp**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/warp/) - 现代终端。类 IDE 深色界面，块状命令 UI
-- [**Zapier**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/zapier/) - 自动化平台。暖橙色，友好的插画驱动风格
+- [**Cursor**](design-md/cursor/) - AI 代码编辑器。深色界面与渐变强调
+- [**Expo**](design-md/expo/) - React Native 平台。深色主题、紧凑字距、代码导向
+- [**Linear**](design-md/linear.app/) - 面向工程师的项目管理。极简、精确、紫色点缀
+- [**Lovable**](design-md/lovable/) - AI 全栈构建工具。 playful 渐变、友好的开发者气质
+- [**Mintlify**](design-md/mintlify/) - 文档平台。干净、绿色点缀、适合长阅读
+- [**PostHog**](design-md/posthog/) - 产品分析工具。品牌个性强、面向开发者的深色 UI
+- [**Raycast**](design-md/raycast/) - 效率启动器。深色 chrome 与高彩渐变强调
+- [**Resend**](design-md/resend/) - 邮件 API。极简深色主题与等宽字点缀
+- [**Sentry**](design-md/sentry/) - 错误监控。深色数据台，粉紫强调
+- [**Supabase**](design-md/supabase/) - 开源 Firebase 替代方案。深色祖母绿，代码优先
+- [**Superhuman**](design-md/superhuman/) - 高速邮件客户端。高级深色 UI，键盘优先
+- [**Vercel**](design-md/vercel/) - 前端部署平台。黑白精确感，Geist 字体
+- [**Warp**](design-md/warp/) - 现代终端。类 IDE 深色界面，块状命令 UI
+- [**Zapier**](design-md/zapier/) - 自动化平台。暖橙色，友好的插画驱动风格
 
 ### 基础设施与云
 
-- [**ClickHouse**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/clickhouse/) - 高性能分析数据库。黄色点缀，技术文档风
-- [**Composio**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/composio/) - 工具集成平台。现代深色与多彩集成图标
-- [**HashiCorp**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/hashicorp/) - 基础设施自动化。企业级干净黑白风格
-- [**MongoDB**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/mongodb/) - 文档数据库。绿色品牌识别，开发者文档导向
-- [**Sanity**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/sanity/) - Headless CMS。红色强调，内容优先的编辑式布局
-- [**Stripe**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/stripe/) - 支付基础设施。标志性紫色渐变，轻字重优雅风格
-- [**Oracle**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/oracle/) - 企业云与数据库软件。暖中性色、炭黑操作按钮、克制品牌红
-- [**SAP**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/sap/) - 企业业务软件。白色画布、SAP 蓝和应用框架式界面
+- [**ClickHouse**](design-md/clickhouse/) - 高性能分析数据库。黄色点缀，技术文档风
+- [**Composio**](design-md/composio/) - 工具集成平台。现代深色与多彩集成图标
+- [**HashiCorp**](design-md/hashicorp/) - 基础设施自动化。企业级干净黑白风格
+- [**MongoDB**](design-md/mongodb/) - 文档数据库。绿色品牌识别，开发者文档导向
+- [**Sanity**](design-md/sanity/) - Headless CMS。红色强调，内容优先的编辑式布局
+- [**Stripe**](design-md/stripe/) - 支付基础设施。标志性紫色渐变，轻字重优雅风格
+- [**Oracle**](design-md/oracle/) - 企业云与数据库软件。暖中性色、炭黑操作按钮、克制品牌红
+- [**SAP**](design-md/sap/) - 企业业务软件。白色画布、SAP 蓝和应用框架式界面
 
 ### 设计与效率
 
-- [**Airtable**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/airtable/) - 表格与数据库混合工具。多彩、友好、结构化数据气质
-- [**Cal.com**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/cal/) - 开源日程安排工具。中性干净，面向开发者
-- [**Clay**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/clay/) - 创意工作室风格。自然形态、柔和渐变、强 art direction
-- [**Figma**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/figma/) - 协作设计工具。多彩、活泼，但仍保持专业
-- [**Framer**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/framer/) - 建站工具。黑蓝高对比，强调动效与设计感
-- [**Intercom**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/intercom/) - 客服消息平台。友好的蓝色系统与对话式 UI
-- [**Miro**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/miro/) - 视觉协作工具。亮黄色点缀，无限画布气质
-- [**Notion**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/notion/) - 一体化工作空间。温和极简、衬线标题、柔和表面
-- [**Pinterest**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/pinterest/) - 图片发现平台。红色强调、瀑布流、图片优先
-- [**Al Jazeera**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/aljazeera/) - 全球新闻网络。纸白编辑画布、橙色品牌块、突发红和密集标题
-- [**mydealz**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/mydealz/) - 德国优惠社区。白卡片信息流、冷热投票和品牌绿
-- [**Slack**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/slack/) - 团队协作消息工具。紫色品牌底、柔和渐变首屏、产品界面组合展示
-- [**Webflow**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/webflow/) - 可视化建站。蓝色点缀、 polished marketing site 风格
+- [**Airtable**](design-md/airtable/) - 表格与数据库混合工具。多彩、友好、结构化数据气质
+- [**Cal.com**](design-md/cal/) - 开源日程安排工具。中性干净，面向开发者
+- [**Clay**](design-md/clay/) - 创意工作室风格。自然形态、柔和渐变、强 art direction
+- [**Figma**](design-md/figma/) - 协作设计工具。多彩、活泼，但仍保持专业
+- [**Framer**](design-md/framer/) - 建站工具。黑蓝高对比，强调动效与设计感
+- [**Intercom**](design-md/intercom/) - 客服消息平台。友好的蓝色系统与对话式 UI
+- [**Miro**](design-md/miro/) - 视觉协作工具。亮黄色点缀，无限画布气质
+- [**Notion**](design-md/notion/) - 一体化工作空间。温和极简、衬线标题、柔和表面
+- [**Pinterest**](design-md/pinterest/) - 图片发现平台。红色强调、瀑布流、图片优先
+- [**Al Jazeera**](design-md/aljazeera/) - 全球新闻网络。纸白编辑画布、橙色品牌块、突发红和密集标题
+- [**mydealz**](design-md/mydealz/) - 德国优惠社区。白卡片信息流、冷热投票和品牌绿
+- [**Slack**](design-md/slack/) - 团队协作消息工具。紫色品牌底、柔和渐变首屏、产品界面组合展示
+- [**Webflow**](design-md/webflow/) - 可视化建站。蓝色点缀、 polished marketing site 风格
 
 ### 金融科技与加密
 
-- [**Binance**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/binance/) - 加密交易平台。黑黄高对比、交易数据紧迫感、深色金融界面
-- [**Coinbase**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/coinbase/) - 加密交易所。干净蓝色识别，强调可信与机构感
-- [**1win**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/1win/) - 加密博彩与体育平台。近黑画布、亮绿色行动色和密集游戏卡片
-- [**Kraken**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/kraken/) - 加密交易平台。紫色深色界面，数据密集型 dashboard
-- [**Mastercard**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/mastercard/) - 全球支付网络。暖米色画布、胶囊圆角、圆形轨道叙事
-- [**Revolut**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/revolut/) - 数字银行。精致深色界面，渐变卡片，金融科技精确感
-- [**Wise**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/wise/) - 国际转账。明亮绿色点缀，清晰且友好
-- [**Mercury**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/mercury/) - 创业公司银行平台。墨紫夜间画布、靛蓝 CTA 和轻量字重
-- [**NerdWallet**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/nerdwallet/) - 个人理财比较平台。森林绿、薄荷色阶和高密度比较表格
+- [**Binance**](design-md/binance/) - 加密交易平台。黑黄高对比、交易数据紧迫感、深色金融界面
+- [**Coinbase**](design-md/coinbase/) - 加密交易所。干净蓝色识别，强调可信与机构感
+- [**1win**](design-md/1win/) - 加密博彩与体育平台。近黑画布、亮绿色行动色和密集游戏卡片
+- [**Kraken**](design-md/kraken/) - 加密交易平台。紫色深色界面，数据密集型 dashboard
+- [**Mastercard**](design-md/mastercard/) - 全球支付网络。暖米色画布、胶囊圆角、圆形轨道叙事
+- [**Revolut**](design-md/revolut/) - 数字银行。精致深色界面，渐变卡片，金融科技精确感
+- [**Wise**](design-md/wise/) - 国际转账。明亮绿色点缀，清晰且友好
+- [**Mercury**](design-md/mercury/) - 创业公司银行平台。墨紫夜间画布、靛蓝 CTA 和轻量字重
+- [**NerdWallet**](design-md/nerdwallet/) - 个人理财比较平台。森林绿、薄荷色阶和高密度比较表格
 
 ### 企业与消费品牌
 
-- [**Airbnb**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/airbnb/) - 旅行平台。暖珊瑚色点缀，强摄影感，圆润 UI
-- [**Apple**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/apple/) - 消费电子。高级留白，SF Pro，电影感视觉
-- [**DJI**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/dji/) - 无人机与相机品牌。白底摄影展厅、工程蓝胶囊按钮和产品分级标签
-- [**Dell 1996**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/dell-1996/) - 1996 年 Dell 官网复古目录风。黑色页面框、彩色丝带卡片、粗重标题和手工 GIF 贴纸感
-- [**HP**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/hp/) - PC 与打印机品牌。纯白画布、HP 电光蓝 CTA、几何无衬线和蓝色斜角装饰
-- [**IBM**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/ibm/) - 企业技术品牌。Carbon 设计系统，结构化蓝色体系
-- [**Meta**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/meta/) - 消费硬件商店。摄影优先、黑白双 CTA、Meta 蓝购买动作
-- [**Nike**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/nike/) - 运动零售品牌。黑白高对比、超大写标题、全幅运动摄影
-- [**Nintendo.com 2001**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/nintendo-2001/) - 复古游戏网页。金属斜面面板、琥珀导航、Y2K 主机外壳式界面
-- [**NVIDIA**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/nvidia/) - GPU 计算。绿色与黑色能量感，技术力量气质
-- [**PlayStation**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/playstation/) - 游戏主机零售与内容平台。蓝色 CTA、三段式明暗画布、游戏视觉主导
-- [**Shopify**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/shopify/) - 电商平台。深色电影感营销与浅色交易界面并行，绿色商业强调
-- [**SpaceX**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/spacex/) - 航天科技。黑白强对比，全幅影像，未来感
-- [**Spotify**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/spotify/) - 音乐流媒体。深色底上的高亮绿色，大胆排版
-- [**Starbucks**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/starbucks/) - 咖啡零售品牌。暖奶油底、四层绿色系统、圆润门店标识感
-- [**The Verge**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/theverge/) - 科技媒体。近黑编辑画布、酸性薄荷与紫色强调、杂志化高密度信息流
-- [**Uber**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/uber/) - 出行平台。粗黑白对比、紧凑字距、都市感强
-- [**Vodafone**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/vodafone/) - 全球电信品牌。沃达丰红 CTA、巨大大写标题、影像分段叙事
-- [**WIRED**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/wired/) - 科技杂志。纸白编辑版式、黑色字标、窄高衬线标题与高密度文章排版
-- [**Oura**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/oura/) - 智能戒指与健康品牌。暖纸张底、编辑衬线和泥土色强调
+- [**Airbnb**](design-md/airbnb/) - 旅行平台。暖珊瑚色点缀，强摄影感，圆润 UI
+- [**Apple**](design-md/apple/) - 消费电子。高级留白，SF Pro，电影感视觉
+- [**DJI**](design-md/dji/) - 无人机与相机品牌。白底摄影展厅、工程蓝胶囊按钮和产品分级标签
+- [**Dell 1996**](design-md/dell-1996/) - 1996 年 Dell 官网复古目录风。黑色页面框、彩色丝带卡片、粗重标题和手工 GIF 贴纸感
+- [**HP**](design-md/hp/) - PC 与打印机品牌。纯白画布、HP 电光蓝 CTA、几何无衬线和蓝色斜角装饰
+- [**IBM**](design-md/ibm/) - 企业技术品牌。Carbon 设计系统，结构化蓝色体系
+- [**Meta**](design-md/meta/) - 消费硬件商店。摄影优先、黑白双 CTA、Meta 蓝购买动作
+- [**Nike**](design-md/nike/) - 运动零售品牌。黑白高对比、超大写标题、全幅运动摄影
+- [**Nintendo.com 2001**](design-md/nintendo-2001/) - 复古游戏网页。金属斜面面板、琥珀导航、Y2K 主机外壳式界面
+- [**NVIDIA**](design-md/nvidia/) - GPU 计算。绿色与黑色能量感，技术力量气质
+- [**PlayStation**](design-md/playstation/) - 游戏主机零售与内容平台。蓝色 CTA、三段式明暗画布、游戏视觉主导
+- [**Shopify**](design-md/shopify/) - 电商平台。深色电影感营销与浅色交易界面并行，绿色商业强调
+- [**SpaceX**](design-md/spacex/) - 航天科技。黑白强对比，全幅影像，未来感
+- [**Spotify**](design-md/spotify/) - 音乐流媒体。深色底上的高亮绿色，大胆排版
+- [**Starbucks**](design-md/starbucks/) - 咖啡零售品牌。暖奶油底、四层绿色系统、圆润门店标识感
+- [**The Verge**](design-md/theverge/) - 科技媒体。近黑编辑画布、酸性薄荷与紫色强调、杂志化高密度信息流
+- [**Uber**](design-md/uber/) - 出行平台。粗黑白对比、紧凑字距、都市感强
+- [**Vodafone**](design-md/vodafone/) - 全球电信品牌。沃达丰红 CTA、巨大大写标题、影像分段叙事
+- [**WIRED**](design-md/wired/) - 科技杂志。纸白编辑版式、黑色字标、窄高衬线标题与高密度文章排版
+- [**Oura**](design-md/oura/) - 智能戒指与健康品牌。暖纸张底、编辑衬线和泥土色强调
 
 ### 汽车品牌
 
-- [**BMW**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/bmw/) - 豪华汽车品牌。深色高级表面，精确的德系工程感
-- [**BMW M**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/bmw-m/) - BMW 高性能子品牌。赛车运动三色强调、黑底摄影、工程感排版
-- [**Bugatti**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/bugatti/) - 超豪华跑车品牌。纯黑电影感、克制单色、纪念碑式大标题
-- [**Ferrari**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/ferrari/) - 豪华汽车品牌。黑白编辑感极强，法拉利红极少量点缀
-- [**Lamborghini**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/lamborghini/) - 豪华汽车品牌。纯黑舞台感、金色强调、张力极强
-- [**Renault**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/renault/) - 法国汽车品牌。高能渐变、几何秩序、现代车展感
-- [**Tesla**](https://github.com/fchangjun/awesome-design-md-cn/tree/main/design-md/tesla/) - 电动车品牌。极简克制、摄影驱动、产品展示优先
+- [**BMW**](design-md/bmw/) - 豪华汽车品牌。深色高级表面，精确的德系工程感
+- [**BMW M**](design-md/bmw-m/) - BMW 高性能子品牌。赛车运动三色强调、黑底摄影、工程感排版
+- [**Bugatti**](design-md/bugatti/) - 超豪华跑车品牌。纯黑电影感、克制单色、纪念碑式大标题
+- [**Ferrari**](design-md/ferrari/) - 豪华汽车品牌。黑白编辑感极强，法拉利红极少量点缀
+- [**Lamborghini**](design-md/lamborghini/) - 豪华汽车品牌。纯黑舞台感、金色强调、张力极强
+- [**Renault**](design-md/renault/) - 法国汽车品牌。高能渐变、几何秩序、现代车展感
+- [**Tesla**](design-md/tesla/) - 电动车品牌。极简克制、摄影驱动、产品展示优先
 
 ## 本地使用
 
 直接打开 [index.html](index.html) 即可预览。
 
-重新同步源仓库内容：
+重新同步案例内容：
 
 ```bash
 npm run sync
 ```
 
-如果源仓库不在默认的 `../awesome-design-md`：
+如需指定案例来源目录：
 
 ```bash
-node scripts/sync-source.mjs /path/to/awesome-design-md
+node scripts/sync-source.mjs /path/to/source
 ```
 
 ## 目录结构
@@ -262,8 +254,3 @@ node scripts/sync-source.mjs /path/to/awesome-design-md
 
 仓库包含 GitHub Pages 工作流：
 [.github/workflows/deploy-pages.yml](.github/workflows/deploy-pages.yml)
-
-## 致敬与引用
-
-- 原项目仓库：[VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md)
-- 本仓库保留原始设计资产，并对浏览和理解体验做中文本地化增强

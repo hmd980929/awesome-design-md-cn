@@ -1,20 +1,20 @@
 # awesome-design-md-cn Design System
 
-[DESIGN.md](https://github.com/fchangjun/awesome-design-md-cn/blob/main/design-md/awesome-design-md-cn/DESIGN.md) extracted from the `awesome-design-md-cn` website itself. This is a custom in-project design system, not a public brand extraction. It documents the visual language used by the Chinese-localized resource library.
+[DESIGN.md](./DESIGN.md) extracted from the awesome-design-md-cn website itself. This is a custom in-project design system, not a public brand extraction. It documents the current visual language of the Chinese resource library.
 
 ## Files
 
 | File | Description |
 |------|-------------|
-| `DESIGN.md` | Complete design system documentation (9 sections) |
-| `preview.html` | Interactive design token catalog (light) |
-| `preview-dark.html` | Interactive design token catalog (dark) |
+| DESIGN.md | Complete design system documentation |
+| preview.html | Local light preview |
+| preview-dark.html | Local dark preview |
 
-Use [DESIGN.md](https://github.com/fchangjun/awesome-design-md-cn/blob/main/design-md/awesome-design-md-cn/DESIGN.md) as a reference for AI agents when you want a Chinese-friendly resource library, navigation index, or tool catalog with a low-fatigue tech aesthetic.
+Use [DESIGN.md](./DESIGN.md) when you want a Chinese-friendly resource library, navigation index, or tool catalog with an editorial archive aesthetic.
 
 ## Preview
 
-A sample resource-library page built with this design language. It shows the color system, typography, buttons, sidebar filters, compact cards, and content panels.
+The previews show the same token catalog in light and dark modes: warm paper surfaces, ink structure, brick-red indexing, serif headlines, fine rules, archive labels, and directory cards.
 
-- Light mode: [`preview.html`](./preview.html)
-- Dark mode: [`preview-dark.html`](./preview-dark.html)
+- Light mode: [preview.html](./preview.html)
+- Dark mode: [preview-dark.html](./preview-dark.html)

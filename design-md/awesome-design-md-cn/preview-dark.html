@@ -6,21 +6,22 @@
 <title>Design System Preview: awesome-design-md-cn (Dark)</title>
 <style>
   :root {
-    --bg-page: #0d1117;
-    --bg-panel: rgba(19, 24, 33, 0.92);
-    --bg-card: #141a24;
-    --bg-card-strong: #18202d;
-    --bg-panel-strong: rgba(23, 31, 43, 0.95);
-    --bg-accent-soft: rgba(125, 150, 255, 0.14);
-    --text-primary: #eef2f8;
-    --text-secondary: rgba(238, 242, 248, 0.72);
-    --text-muted: rgba(238, 242, 248, 0.48);
-    --line: rgba(148, 163, 184, 0.16);
-    --line-strong: rgba(148, 163, 184, 0.24);
-    --accent: #7d96ff;
-    --accent-strong: #aab8ff;
+    --bg-page: #20231f;
+    --bg-panel: rgba(44, 48, 43, 0.92);
+    --bg-card: #2c302b;
+    --bg-card-strong: #353a34;
+    --bg-panel-strong: rgba(32, 35, 31, 0.95);
+    --bg-accent-soft: rgba(191, 75, 52, 0.18);
+    --text-primary: #f7efe4;
+    --text-secondary: rgba(247, 239, 228, 0.72);
+    --text-muted: rgba(247, 239, 228, 0.48);
+    --line: rgba(255, 251, 243, 0.16);
+    --line-strong: rgba(255, 251, 243, 0.24);
+    --accent: #d66b53;
+    --accent-strong: #f0a18f;
     --shadow-soft: 0 18px 40px rgba(0, 0, 0, 0.28);
-    --font-sans: "SF Pro Display", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", system-ui, sans-serif;
+    --font-serif: "Iowan Old Style", "Baskerville", "Songti SC", "STSong", serif;
+    --font-sans: "Avenir Next", "PingFang SC", "Noto Sans SC", "Hiragino Sans GB", sans-serif;
     --font-mono: "SF Mono", "JetBrains Mono", ui-monospace, monospace;
   }
 
@@ -30,7 +31,7 @@
 
   body {
     background:
-      radial-gradient(circle at 80% 6%, rgba(125, 150, 255, 0.16), transparent 24%),
+      radial-gradient(circle at 80% 6%, rgba(191, 75, 52, 0.18), transparent 24%),
       var(--bg-page);
     color: var(--text-primary);
     font-family: var(--font-sans);
@@ -106,23 +107,27 @@
   }
 
   .hero {
+    position: relative;
     max-width: 1240px;
     margin: 24px auto 0;
-    padding: 42px 32px;
-    border: 1px solid var(--line);
-    border-radius: 22px;
+    padding: 48px 42px 44px;
+    border: 1px solid var(--line-strong);
+    border-top: 6px solid var(--accent);
+    border-radius: 4px;
     background:
-      radial-gradient(circle at 82% 20%, rgba(125, 150, 255, 0.2), transparent 24%),
-      linear-gradient(180deg, #151b25, #0f141b);
+      linear-gradient(90deg, rgba(255, 251, 243, 0.06) 1px, transparent 1px),
+      linear-gradient(rgba(255, 251, 243, 0.06) 1px, transparent 1px),
+      linear-gradient(135deg, #20231f 0%, #2c302b 100%);
+    background-size: 34px 34px, 34px 34px, auto;
     overflow: hidden;
   }
 
   .hero-label {
     display: inline-flex;
     align-items: center;
-    min-height: 30px;
-    padding: 0 12px;
-    border-radius: 999px;
+    min-height: 28px;
+    padding: 0 10px;
+    border-radius: 2px;
     border: 1px solid var(--line-strong);
     background: rgba(255, 255, 255, 0.03);
     font-size: 11px;
@@ -134,10 +139,11 @@
   .hero h1 {
     margin-top: 18px;
     max-width: 760px;
-    font-size: 64px;
-    font-weight: 620;
-    line-height: 0.98;
-    letter-spacing: -0.055em;
+    font-family: var(--font-serif);
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 0.96;
+    letter-spacing: -0.045em;
   }
 
   .hero p {
@@ -171,9 +177,9 @@
   }
 
   .btn-primary {
-    background: var(--bg-accent-soft);
-    border-color: rgba(125, 150, 255, 0.24);
-    color: var(--accent-strong);
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fffaf4;
   }
 
   .btn-secondary {
@@ -339,7 +345,7 @@
 
   .btn-dark-primary {
     background: var(--bg-accent-soft);
-    border-color: rgba(125, 150, 255, 0.24);
+    border-color: rgba(191, 75, 52, 0.28);
     color: var(--accent-strong);
   }
 
@@ -369,7 +375,7 @@
 
   .chip-active {
     background: var(--bg-accent-soft);
-    border-color: rgba(125, 150, 255, 0.24);
+    border-color: rgba(191, 75, 52, 0.28);
     color: var(--accent-strong);
   }
 
@@ -483,7 +489,7 @@
 
   .mini-btn-primary {
     background: var(--bg-accent-soft);
-    border-color: rgba(125, 150, 255, 0.24);
+    border-color: rgba(191, 75, 52, 0.28);
     color: var(--accent-strong);
   }
 
@@ -506,14 +512,14 @@
 
   .scale-block {
     width: 48px;
-    background: #eef2f8;
+    background: #f7efe4;
     border-radius: 6px;
   }
 
   .radius-box {
     width: 68px;
     height: 68px;
-    background: #eef2f8;
+    background: #f7efe4;
   }
 
   .elevation-box {
@@ -559,6 +565,8 @@
     .section-title { font-size: 28px; }
   }
 </style>
+  <link rel="icon" href="../../assets/favicon/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon/favicon-32.png">
 </head>
 <body>
 
@@ -579,7 +587,7 @@
 
 <section class="hero">
   <div class="hero-label">Custom Design System</div>
-  <h1>Dark mode keeps the same low-fatigue structure.</h1>
+  <h1>An ink-toned archive for long reading sessions.</h1>
   <p>This variant preserves the same catalog format as the light preview, while adapting surfaces and contrast for a darker reading environment.</p>
   <div class="hero-actions">
     <span class="btn btn-primary">Use This Style</span>
@@ -591,34 +599,34 @@
 
 <section class="section" id="colors">
   <div class="section-label">01 / Colors</div>
-  <h2 class="section-title">Dark Surface System</h2>
-  <p class="section-copy">The dark version should stay calm and legible, with the same single cool-blue accent and the same compact, directory-like interaction patterns.</p>
+  <h2 class="section-title" style="font-family:var(--font-serif);">Dark Surface System</h2>
+  <p class="section-copy">The dark version keeps the same archive hierarchy, with ink-toned surfaces and brick-red index accents.</p>
 
   <div class="color-group">
     <div class="color-group-title">Core Surfaces</div>
     <div class="color-grid">
-      <article class="swatch"><div class="swatch-color" style="background:#0d1117;"></div><div class="swatch-info"><div class="swatch-name">Page Canvas</div><div class="swatch-code">#0d1117</div><div class="swatch-role">Global background</div></div></article>
-      <article class="swatch"><div class="swatch-color" style="background:rgba(19,24,33,0.92);"></div><div class="swatch-info"><div class="swatch-name">Panel Surface</div><div class="swatch-code">rgba(19,24,33,0.92)</div><div class="swatch-role">Section panels</div></div></article>
-      <article class="swatch"><div class="swatch-color" style="background:#141a24;"></div><div class="swatch-info"><div class="swatch-name">Card Surface</div><div class="swatch-code">#141a24</div><div class="swatch-role">Directory cards</div></div></article>
-      <article class="swatch"><div class="swatch-color" style="background:#18202d;"></div><div class="swatch-info"><div class="swatch-name">Raised Dark</div><div class="swatch-code">#18202d</div><div class="swatch-role">Hover state</div></div></article>
+      <article class="swatch"><div class="swatch-color" style="background:#20231f;"></div><div class="swatch-info"><div class="swatch-name">Page Canvas</div><div class="swatch-code">#20231f</div><div class="swatch-role">Global background</div></div></article>
+      <article class="swatch"><div class="swatch-color" style="background:rgba(44,48,43,0.92);"></div><div class="swatch-info"><div class="swatch-name">Panel Surface</div><div class="swatch-code">rgba(44,48,43,0.92)</div><div class="swatch-role">Section panels</div></div></article>
+      <article class="swatch"><div class="swatch-color" style="background:#2c302b;"></div><div class="swatch-info"><div class="swatch-name">Card Surface</div><div class="swatch-code">#2c302b</div><div class="swatch-role">Directory cards</div></div></article>
+      <article class="swatch"><div class="swatch-color" style="background:#353a34;"></div><div class="swatch-info"><div class="swatch-name">Raised Dark</div><div class="swatch-code">#353a34</div><div class="swatch-role">Hover state</div></div></article>
     </div>
   </div>
 
   <div class="color-group">
     <div class="color-group-title">Text & Structure</div>
     <div class="color-grid">
-      <article class="swatch"><div class="swatch-color" style="background:#eef2f8;"></div><div class="swatch-info"><div class="swatch-name">Primary Text</div><div class="swatch-code">#eef2f8</div><div class="swatch-role">Headlines, primary labels</div></div></article>
-      <article class="swatch"><div class="swatch-color" style="background:rgba(238,242,248,0.72);"></div><div class="swatch-info"><div class="swatch-name">Secondary Text</div><div class="swatch-code">rgba(238,242,248,0.72)</div><div class="swatch-role">Supporting copy</div></div></article>
-      <article class="swatch"><div class="swatch-color" style="background:rgba(148,163,184,0.16);"></div><div class="swatch-info"><div class="swatch-name">Soft Border</div><div class="swatch-code">rgba(148,163,184,0.16)</div><div class="swatch-role">Quiet outlines</div></div></article>
+      <article class="swatch"><div class="swatch-color" style="background:#f7efe4;"></div><div class="swatch-info"><div class="swatch-name">Primary Text</div><div class="swatch-code">#f7efe4</div><div class="swatch-role">Headlines, primary labels</div></div></article>
+      <article class="swatch"><div class="swatch-color" style="background:rgba(247,239,228,0.72);"></div><div class="swatch-info"><div class="swatch-name">Secondary Text</div><div class="swatch-code">rgba(247,239,228,0.72)</div><div class="swatch-role">Supporting copy</div></div></article>
+      <article class="swatch"><div class="swatch-color" style="background:rgba(255,251,243,0.16);"></div><div class="swatch-info"><div class="swatch-name">Soft Border</div><div class="swatch-code">rgba(255,251,243,0.16)</div><div class="swatch-role">Quiet outlines</div></div></article>
     </div>
   </div>
 
   <div class="color-group">
     <div class="color-group-title">Accent System</div>
     <div class="color-grid">
-      <article class="swatch"><div class="swatch-color" style="background:#7d96ff;"></div><div class="swatch-info"><div class="swatch-name">Accent Blue</div><div class="swatch-code">#7d96ff</div><div class="swatch-role">Interactive emphasis</div></div></article>
-      <article class="swatch"><div class="swatch-color" style="background:rgba(125,150,255,0.14);"></div><div class="swatch-info"><div class="swatch-name">Accent Wash</div><div class="swatch-code">rgba(125,150,255,0.14)</div><div class="swatch-role">Active fills</div></div></article>
-      <article class="swatch"><div class="swatch-color" style="background:#aab8ff;"></div><div class="swatch-info"><div class="swatch-name">Accent Text</div><div class="swatch-code">#aab8ff</div><div class="swatch-role">Highlighted text</div></div></article>
+      <article class="swatch"><div class="swatch-color" style="background:#d66b53;"></div><div class="swatch-info"><div class="swatch-name">Brick Red</div><div class="swatch-code">#d66b53</div><div class="swatch-role">Index emphasis</div></div></article>
+      <article class="swatch"><div class="swatch-color" style="background:rgba(191,75,52,0.18);"></div><div class="swatch-info"><div class="swatch-name">Accent Wash</div><div class="swatch-code">rgba(191,75,52,0.18)</div><div class="swatch-role">Active fills</div></div></article>
+      <article class="swatch"><div class="swatch-color" style="background:#f0a18f;"></div><div class="swatch-info"><div class="swatch-name">Accent Text</div><div class="swatch-code">#f0a18f</div><div class="swatch-role">Highlighted archive text</div></div></article>
     </div>
   </div>
 </section>
@@ -627,24 +635,24 @@
 
 <section class="section" id="typography">
   <div class="section-label">02 / Typography</div>
-  <h2 class="section-title">Consistent Hierarchy</h2>
+  <h2 class="section-title" style="font-family:var(--font-serif);">Consistent Hierarchy</h2>
   <p class="section-copy">Dark mode does not change the type structure. The same hierarchy should remain visible through weight, spacing, and line-height rather than color noise.</p>
 
   <div class="type-list">
     <div class="type-item">
-      <div class="type-hero">中文资源库，也可以有自己的 DESIGN.md。</div>
+      <div class="type-hero" style="font-family:var(--font-serif);">A resource archive can have its own DESIGN.md.</div>
       <div class="type-meta">Hero / 64px / 620 / -0.055em</div>
     </div>
     <div class="type-item">
-      <div class="type-section">设计系统库</div>
+      <div class="type-section" style="font-family:var(--font-serif);">Design system library</div>
       <div class="type-meta">Section Title / 36px / 620 / -0.045em</div>
     </div>
     <div class="type-item">
-      <div class="type-card">本站风格</div>
+      <div class="type-card">Site archive style</div>
       <div class="type-meta">Card Title / 18px / 640 / -0.04em</div>
     </div>
     <div class="type-item">
-      <div class="type-body">深色版本依旧强调紧凑目录卡片、稳定层级和低疲劳浏览，不把深色做成夸张霓虹风。</div>
+      <div class="type-body">The dark version keeps the archive numbering, fine rules, and catalog rhythm on ink-toned surfaces.</div>
       <div class="type-meta">Body / 14px / 330 / 1.6</div>
     </div>
     <div class="type-item">
@@ -658,20 +666,20 @@
 
 <section class="section" id="buttons">
   <div class="section-label">03 / Buttons & Chips</div>
-  <h2 class="section-title">Calm Dark Controls</h2>
-  <p class="section-copy">Buttons and chips stay light and quiet in dark mode. Accent color should still be used with discipline.</p>
+  <h2 class="section-title" style="font-family:var(--font-serif);">Calm Dark Controls</h2>
+  <p class="section-copy">Buttons and chips stay quiet in dark mode; brick red remains reserved for active index states.</p>
 
   <div class="button-row">
     <div class="button-item">
-      <span class="btn btn-dark-primary">查看详情</span>
+      <span class="btn btn-dark-primary">View details</span>
       <div class="button-label">Primary pill</div>
     </div>
     <div class="button-item">
-      <span class="btn btn-dark-secondary">打开预览</span>
+      <span class="btn btn-dark-secondary">Open preview</span>
       <div class="button-label">Secondary pill</div>
     </div>
     <div class="button-item">
-      <span class="btn btn-dark-ghost">清空筛选</span>
+      <span class="btn btn-dark-ghost">Clear filters</span>
       <div class="button-label">Ghost action</div>
     </div>
   </div>
@@ -680,15 +688,15 @@
 
   <div class="chip-row">
     <div class="chip-item">
-      <span class="chip chip-active">自定义案例</span>
+      <span class="chip chip-active">Custom case</span>
       <div class="chip-label">Active chip</div>
     </div>
     <div class="chip-item">
-      <span class="chip">参考案例</span>
+      <span class="chip">Reference case</span>
       <div class="chip-label">Default chip</div>
     </div>
     <div class="chip-item">
-      <span class="chip">设计资源库</span>
+      <span class="chip">Design archive</span>
       <div class="chip-label">Scenario chip</div>
     </div>
   </div>
@@ -698,39 +706,39 @@
 
 <section class="section" id="components">
   <div class="section-label">04 / Components</div>
-  <h2 class="section-title">Sidebar + Compact Cards</h2>
-  <p class="section-copy">The same structural pattern stays intact: a stable filter rail, a quiet content grid, and compact cards that read like directory entries.</p>
+  <h2 class="section-title" style="font-family:var(--font-serif);">Index Rail + Directory Cards</h2>
+  <p class="section-copy">The structure stays consistent: a stable filter rail, a quiet content grid, and compact cards that read like directory entries.</p>
 
   <div class="component-grid">
     <aside class="panel">
       <div class="section-label" style="margin-bottom:10px;">Browse</div>
-      <h3>筛选风格</h3>
-      <p>搜索、分类、场景继续保持在同一个区域，避免深色模式下过度强调控件本身。</p>
-      <input class="search-input" value="资源库 / 深色 / 中文" aria-label="Search">
+      <h3>Filter styles</h3>
+      <p>Keep search, categories, and scenarios in one stable area without over-emphasizing the controls in dark mode.</p>
+      <input class="search-input" value="archive / dark / editorial" aria-label="Search">
       <div class="card-meta" style="margin-top:14px;">
-        <span class="meta-pill">全部</span>
-        <span class="meta-pill" style="background:var(--bg-accent-soft); color:var(--accent-strong);">自定义案例</span>
-        <span class="meta-pill">参考案例</span>
+        <span class="meta-pill">All</span>
+        <span class="meta-pill" style="background:var(--bg-accent-soft); color:var(--accent-strong);">Custom case</span>
+        <span class="meta-pill">Reference case</span>
       </div>
       <div class="card-meta" style="margin-top:10px;">
-        <span class="meta-pill">设计资源库</span>
-        <span class="meta-pill">工具聚合页</span>
+        <span class="meta-pill">Design archive</span>
+        <span class="meta-pill">Tool catalog</span>
       </div>
     </aside>
 
     <div class="card-grid">
       <article class="sample-card" style="background:var(--bg-card-strong);">
         <div class="card-kicker">Custom</div>
-        <h3>本站风格</h3>
+        <h3>Site archive style</h3>
         <div class="card-sub">awesome-design-md-cn</div>
-        <p>用于沉淀中文资源库自己的设计规范，在深色模式下依旧保持低刺激和清晰层级。</p>
+        <p>A reference for the archive language, keeping the dark mode quiet and legible.</p>
         <div class="card-meta">
-          <span class="meta-pill" style="background:var(--bg-accent-soft); color:var(--accent-strong);">自定义案例</span>
-          <span class="meta-pill">设计资源库</span>
+          <span class="meta-pill" style="background:var(--bg-accent-soft); color:var(--accent-strong);">Custom case</span>
+          <span class="meta-pill">Design archive</span>
         </div>
         <div class="action-row">
-          <span class="mini-btn mini-btn-primary">查看详情</span>
-          <span class="mini-btn">打开预览</span>
+          <span class="mini-btn mini-btn-primary">View details</span>
+          <span class="mini-btn">Open preview</span>
         </div>
       </article>
 
@@ -738,14 +746,14 @@
         <div class="card-kicker">Reference</div>
         <h3>Vercel</h3>
         <div class="card-sub">Vercel</div>
-        <p>精确、克制、黑白优先，适合作为工具官网和文档站的深色参考。</p>
+        <p>Precise, restrained, and black-and-white first, useful for developer sites and documentation.</p>
         <div class="card-meta">
-          <span class="meta-pill">参考案例</span>
-          <span class="meta-pill">开发者官网</span>
+          <span class="meta-pill">Reference case</span>
+          <span class="meta-pill">Developer site</span>
         </div>
         <div class="action-row">
-          <span class="mini-btn mini-btn-primary">查看详情</span>
-          <span class="mini-btn">打开预览</span>
+          <span class="mini-btn mini-btn-primary">View details</span>
+          <span class="mini-btn">Open preview</span>
         </div>
       </article>
     </div>
@@ -756,7 +764,7 @@
 
 <section class="section" id="spacing">
   <div class="section-label">05 / Spacing & Depth</div>
-  <h2 class="section-title">Spacing, Radius, Elevation</h2>
+  <h2 class="section-title" style="font-family:var(--font-serif);">Spacing, Radius, Elevation</h2>
   <p class="section-copy">Dark mode keeps the same spacing and radius rules. Only surfaces and shadow depth shift to maintain contrast.</p>
 
   <div class="color-group">

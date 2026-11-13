@@ -2,7 +2,7 @@
 
 ## 项目定位
 
-这是 `VoltAgent/awesome-design-md` 的中文本地化浏览仓库。核心内容是 `design-md/*/DESIGN.md`、明暗预览页、中文元数据和静态详情页。
+这是一个面向中文用户的 DESIGN.md 资源库。核心内容是 `design-md/*/DESIGN.md`、明暗预览页、中文元数据和静态详情页。
 
 ## 同步规则
 

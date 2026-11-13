@@ -655,11 +655,11 @@ async function buildCustomRecord() {
     name: customCaseSlug,
     displayName: customCaseSlug,
     nameZh: "本站风格",
-    summaryZh: "冷灰科技风的中文 DESIGN.md 资源库界面，强调低疲劳浏览、侧栏筛选和紧凑目录卡片。",
+    summaryZh: "中文编辑部档案馆式的 DESIGN.md 资源库，使用暖纸张底、墨黑结构与砖红索引色，强调目录感、细线网格和长时间阅读。",
     category: "自定义案例",
     group: "custom",
-    tagsZh: ["中文", "科技", "资源库", "筛选", "目录"],
-    styleKeywords: ["冷灰科技风", "低疲劳浏览", "左侧筛选", "紧凑目录卡片"],
+    tagsZh: ["中文", "编辑部", "档案馆", "砖红", "目录"],
+    styleKeywords: ["编辑部档案馆", "暖纸张底", "墨黑结构", "砖红索引色", "细线网格"],
     aliases: [
       customCaseSlug,
       "awesome design md cn",
@@ -673,11 +673,11 @@ async function buildCustomRecord() {
     readmePath: `design-md/${customCaseSlug}/README.md`,
     designPath: `design-md/${customCaseSlug}/DESIGN.md`,
     updatedAt: await resolveLocalUpdatedAt(customCaseSlug),
-    positioningZh: "用于高密度内容浏览的中文科技风资源库，强调低疲劳、清晰筛选和稳定层级。",
+    positioningZh: "适合长时间浏览的中文设计资源档案馆，用编辑部排版、编号和档案标签组织高密度内容。",
     bestFor: ["设计资源库", "风格导航页", "文档索引页", "工具聚合页"],
-    avoidFor: ["高情绪品牌大片页", "娱乐化活动落地页"],
-    aiChecklist: ["优先降低颜色刺激和纯白疲劳", "把筛选放在稳定且常驻的位置", "卡片保持紧凑，主次信息明确"],
-    recommendedPromptZh: "参考 awesome-design-md-cn 的视觉语言，设计一个中文设计资源库或风格索引页：使用浅冷灰底与深色首屏，整体只保留少量冷蓝强调；左侧使用常驻筛选栏，右侧使用紧凑目录卡片；中文标题和正文保持克制，不堆大段文案，不使用高饱和彩色块，让页面在长时间浏览时仍然低疲劳、清晰且有科技感。",
+    avoidFor: ["高情绪品牌大片页", "霓虹科技展示页"],
+    aiChecklist: ["以暖纸张底承载内容，以墨黑建立结构", "用砖红作为索引与交互强调，钢蓝只作少量辅助", "用衬线标题、细线网格、编号和目录卡片组织信息"],
+    recommendedPromptZh: "参考 awesome-design-md-cn 的最新编辑部档案馆视觉语言，设计一个中文设计资源库或风格索引页：使用暖纸张底、墨黑结构和少量砖红索引色，标题采用有性格的衬线字体，正文使用克制的无衬线字体；用细线网格、编号、档案标签和目录式卡片组织高密度内容，Hero 保持轻微非对称，适合长时间浏览，避免紫色渐变、过度圆角和模板化 AI 卡片。",
   };
 }
 
@@ -732,6 +732,8 @@ function detailPageTemplate(record) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${escapeHtml(record.nameZh)} · awesome-design-md-cn</title>
   <meta name="description" content="${escapeHtml(record.summaryZh)}">
+  <link rel="icon" href="../../assets/favicon/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon/favicon-32.png">
   <link rel="stylesheet" href="../../assets/site.css">
 </head>
 <body class="page-detail">
@@ -1016,6 +1018,8 @@ function previewPageTemplate(record, mode, colors = []) {
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Design System Preview: ${escapeHtml(record.displayName)} (${isDark ? "Dark" : "Light"})</title>
+<link rel="icon" href="../../assets/favicon/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon/favicon-32.png">
 <style>
   :root {
     --page: ${pageBg};
@@ -1221,7 +1225,7 @@ function previewPageTemplate(record, mode, colors = []) {
 </section>
 
 <footer class="footer">
-  Generated because upstream did not provide preview HTML. Follows the existing preview catalog structure used by this repository.
+  Generated locally to complete the preview catalog structure used by this repository.
 </footer>
 </body>
 </html>
@@ -1233,7 +1237,7 @@ function readmeTemplate(record) {
 
 ${record.summaryZh}
 
-This directory contains a \`DESIGN.md\` reference synced from the upstream \`awesome-design-md\` collection.
+This directory contains a \`DESIGN.md\` reference included in this collection.
 It is not an official design system.
 
 ## Files
@@ -1290,6 +1294,34 @@ async function ensurePreviewFiles(records) {
       await fs.writeFile(darkPath, cleanGeneratedText(previewPageTemplate(record, "dark", colors)));
     }
   }));
+}
+
+async function ensureFaviconLinks(directory) {
+  for (const entry of await fs.readdir(directory, { withFileTypes: true })) {
+    if (entry.isDirectory() && entry.name === ".git") {
+      continue;
+    }
+    const filePath = path.join(directory, entry.name);
+    if (entry.isDirectory()) {
+      await ensureFaviconLinks(filePath);
+      continue;
+    }
+    if (!entry.isFile() || path.extname(entry.name).toLowerCase() !== ".html") {
+      continue;
+    }
+
+    const content = await fs.readFile(filePath, "utf8");
+    if (content.includes("assets/favicon/favicon.ico")) {
+      continue;
+    }
+
+    const relativeFaviconPath = path.relative(
+      path.dirname(filePath),
+      path.join(targetRoot, "assets/favicon"),
+    ).split(path.sep).join("/");
+    const faviconLinks = `  <link rel="icon" href="${relativeFaviconPath}/favicon.ico" sizes="any">\n  <link rel="icon" type="image/png" sizes="32x32" href="${relativeFaviconPath}/favicon-32.png">\n`;
+    await fs.writeFile(filePath, content.replace("</head>", `${faviconLinks}</head>`));
+  }
 }
 
 async function main() {
@@ -1386,6 +1418,8 @@ async function main() {
     await fs.mkdir(pageDir, { recursive: true });
     await fs.writeFile(path.join(pageDir, "index.html"), cleanGeneratedText(detailPageTemplate(record)));
   }));
+
+  await ensureFaviconLinks(targetRoot);
 
   console.log(`Synced ${records.length} design systems from ${sourceRoot}`);
 }

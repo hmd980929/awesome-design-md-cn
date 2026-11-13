@@ -2,7 +2,7 @@
 
 团队协作消息工具。紫色品牌底、柔和渐变首屏、产品界面组合展示。
 
-This directory contains a `DESIGN.md` reference synced from the upstream `awesome-design-md` collection.
+This directory contains a `DESIGN.md` reference included in this collection.
 It is not an official design system.
 
 ## Files

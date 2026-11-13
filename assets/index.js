@@ -3,7 +3,6 @@
     ...item,
     group: item.group || "reference",
   }));
-  const featuredSlugs = ["awesome-design-md-cn", "figma", "notion", "stripe"];
   const preferredScenarios = [
     "品牌官网",
     "产品官网",
@@ -29,7 +28,6 @@
   const scenarioCount = document.getElementById("scenario-count");
   const categoryChips = document.getElementById("category-chips");
   const scenarioChips = document.getElementById("scenario-chips");
-  const featuredGrid = document.getElementById("featured-grid");
   const libraryGroups = document.getElementById("library-groups");
   const resultCount = document.getElementById("result-count");
   const searchInput = document.getElementById("search-input");
@@ -100,15 +98,12 @@
     return value ? `同步 ${value}` : "未同步";
   }
 
-  function renderCard(item, options = {}) {
-    const variant = options.variant || "default";
-    const isFeatured = variant === "featured";
+  function renderCard(item) {
     const isCustom = item.group === "custom";
-    const kicker = isCustom ? "Custom" : isFeatured ? "Featured" : "System";
-    const wrapperClass = isFeatured ? "card featured-card" : "card";
+    const kicker = isCustom ? "Custom" : "System";
 
     return `
-      <article class="${wrapperClass}">
+      <article class="card">
         <div class="card-topline">
           <div class="card-kicker">${kicker}</div>
           <span class="card-updated">${escapeHtml(updateLabel(item))}</span>
@@ -121,26 +116,16 @@
           <span class="badge">${escapeHtml(item.category)}</span>
         </div>
         <p class="muted">${escapeHtml(item.summaryZh)}</p>
-        ${isFeatured ? `
-        <div class="mini-tags">${(item.tagsZh || []).slice(0, 2).map((tag) => `<span>${escapeHtml(tag)}</span>`).join("")}</div>` : `
         <div class="card-meta">
           <span>${escapeHtml(groupLabel(item.group))}</span>
           <span>${escapeHtml((item.useCases || []).slice(0, 1).join(""))}</span>
-        </div>`}
+        </div>
         <div class="card-actions">
-          <a class="card-action card-action-primary" href="${escapeHtml(createDetailLink(item))}">查看详情</a>
+          <a class="card-action card-action-primary" href="${escapeHtml(createDetailLink(item))}" target="_blank" rel="noreferrer">查看详情</a>
           <a class="card-action" href="${escapeHtml(item.previewLight)}" target="_blank" rel="noreferrer">打开预览</a>
         </div>
       </article>
     `;
-  }
-
-  function renderFeatured() {
-    const featured = featuredSlugs
-      .map((slug) => designs.find((item) => item.slug === slug))
-      .filter(Boolean);
-
-    featuredGrid.innerHTML = featured.map((item) => renderCard(item, { variant: "featured" })).join("");
   }
 
   function renderCards(items) {
@@ -220,7 +205,6 @@
     const allScenarios = unique(designs.flatMap((item) => item.useCases || []));
     const scenarios = ["全部"].concat(preferredScenarios.filter((item) => allScenarios.includes(item)));
 
-    renderFeatured();
     renderCategoryChips(categories);
     renderScenarioChips(scenarios);
     render();

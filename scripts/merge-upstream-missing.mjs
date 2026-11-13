@@ -141,6 +141,8 @@ function detailPageTemplate(record) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${escapeHtml(record.nameZh)} · awesome-design-md-cn</title>
   <meta name="description" content="${escapeHtml(record.summaryZh)}">
+  <link rel="icon" href="../../assets/favicon/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon/favicon-32.png">
   <link rel="stylesheet" href="../../assets/site.css">
 </head>
 <body class="page-detail">
