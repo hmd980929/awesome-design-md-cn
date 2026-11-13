@@ -24,6 +24,7 @@
 
 ## 快速入口
 
+- 在线预览：[awesome-design-md-cn](https://hmd980929.github.io/awesome-design-md-cn/)
 - 使用指南：[guide.html](guide.html)
 
 ## 更新日志
